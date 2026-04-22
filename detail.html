@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Style Detail</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="index.html">← Back to Library</a>
+  <div id="content"></div>
+
+  <script src="data.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get('slug');
+    const style = styles.find(s => s.slug === slug);
+
+    const el = document.getElementById('content');
+
+    if (style) {
+      el.innerHTML = `
+        <h1>${style.name}</h1>
+        <img src="${style.image}" style="max-width:800px;width:100%" />
+        <p><b>Category:</b> ${style.category}</p>
+        <p>${style.summary}</p>
+        <h3>Prompt</h3>
+        <div class="prompt" id="prompt">${style.prompt}</div>
+        <button onclick="copyPrompt()">Copy Prompt</button>
+        <p><a href="${style.source}" target="_blank">View Source Thread</a></p>
+      `;
+    }
+
+    function copyPrompt() {
+      navigator.clipboard.writeText(style.prompt);
+      alert('Prompt copied');
+    }
+  </script>
+</body>
+</html>
