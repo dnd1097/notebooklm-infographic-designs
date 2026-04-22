@@ -1,363 +1,163 @@
 const styles = [
   {
-    slug: 'psychedelic-flower-power',
-    name: 'Psychedelic Flower Power',
-    category: 'Retro / Maximalist',
-    tags: ['70s', 'psychedelic', 'flower power'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-7qz3mw3ql3dg1.png?auto=webp&crop=smart&s=f5a83fca94dd767830b2aec9d3a46862a6b237b8&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qbonx8/12_fabulous_notebooklm_infographic_slide_deck/',
-    summary: 'Wavy rainbow borders, peace signs, daisies, mushrooms, and bold bubble typography.',
-    prompt: 'Create a NotebookLM infographic in psychedelic 70s flower-power style with wavy rainbow borders, peace symbols, mushrooms, daisies, bold black outlines, fluid compartment frames, and chunky bubble headings.'
-  },
-  {
-    slug: 'versus-anime-hud',
-    name: 'Versus Anime HUD',
-    category: 'Pop Culture / Gaming',
-    tags: ['anime', 'hud', 'versus'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-q1mntubnl3dg1.png?auto=webp&crop=smart&s=b0e0ef41ab3926eafb1c8a39c054370afce29fe0&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qbonx8/12_fabulous_notebooklm_infographic_slide_deck/',
-    summary: 'Split-screen competitive layout with manga energy, speed lines, and game UI framing.',
-    prompt: 'Create a NotebookLM infographic with a fighting-game versus HUD look: split-screen composition, speed lines, cel-shaded illustration, impact bursts, health-bar UI, strong warm-vs-cool contrast, and high-energy manga typography.'
-  },
-  {
-    slug: 'denim-patchwork-manual',
-    name: 'Denim Patchwork Manual',
-    category: 'Textured / Craft',
-    tags: ['denim', 'skeuomorphic', 'craft'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-88d6vu3ql3dg1.png?auto=webp&crop=smart&s=1205a3d7a7a48b4281739218b63a9487d2dea186&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qbonx8/12_fabulous_notebooklm_infographic_slide_deck/',
-    summary: 'Realistic denim fabric, stitched labels, frayed edges, and copper rivets.',
-    prompt: 'Create a NotebookLM infographic in tactile denim patchwork style with realistic denim texture, stitched labels, embroidered headings, copper rivets, frayed borders, and sewn directional arrows.'
-  },
-  {
-    slug: 'ancient-papyrus-systems',
-    name: 'Ancient Papyrus Systems',
-    category: 'Historical / Allegorical',
-    tags: ['papyrus', 'egyptian', 'historical'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-9ngv5vbnl3dg1.png?auto=webp&crop=smart&s=6f03a6cbd55483d86263a88fdc1ed7d02335b206&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qbonx8/12_fabulous_notebooklm_infographic_slide_deck/',
-    summary: 'Papyrus grain, hieroglyphic borders, flat profile figures, and symbolic technical storytelling.',
-    prompt: 'Create a NotebookLM infographic in ancient papyrus / Egyptian systems style with aged parchment texture, flat profile figures, hieroglyphic borders, framed panels, dark ink outlines, and symbolic objects representing technical concepts.'
-  },
-  {
-    slug: 'art-deco-noir-evaluation',
-    name: 'Art Deco Noir Evaluation',
-    category: 'Luxury / Art Deco',
-    tags: ['art deco', 'gatsby', 'noir'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-32bomv3ql3dg1.png?auto=webp&crop=smart&s=7adaeb5f7a598922cde3350418eee76a96ce73c8&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qbonx8/12_fabulous_notebooklm_infographic_slide_deck/',
-    summary: 'Black-and-gold cinematic luxury with ornate frames and symmetrical structure.',
-    prompt: 'Create a NotebookLM infographic in luxurious Art Deco noir style with black velvet background, metallic gold geometry, symmetrical framing, high-contrast serif headings, ornamental borders, and cinematic contrast.'
-  },
-  {
-    slug: 'isometric-textbook-diagram',
-    name: 'Isometric Textbook Diagram',
-    category: 'Educational / Diagrammatic',
-    tags: ['isometric', 'textbook', 'diagram'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-mp85uvbnl3dg1.png?auto=webp&crop=smart&s=59b2db232da8365609776cf15f64fdf00c8172e0&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qbonx8/12_fabulous_notebooklm_infographic_slide_deck/',
-    summary: 'Structured split layout with clean isometric diagrams and clear educational hierarchy.',
-    prompt: 'Create a NotebookLM infographic with textbook-clean isometric diagrams, thin line work, dashed curve arrows, hierarchical nodes, and a balanced two-column explanatory layout.'
-  },
-  {
-    slug: 'pastel-knolling-comparison',
-    name: 'Pastel Knolling Comparison',
-    category: 'Modern Minimal',
-    tags: ['flat lay', 'pastel', 'comparison'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-d8k5re5ql3dg1.png?auto=webp&crop=smart&s=898e5362f757607baf6020a05016d80c7b2f558e&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qbonx8/12_fabulous_notebooklm_infographic_slide_deck/',
-    summary: 'Top-down desk objects with gentle shadows and a clean problem-vs-solution split.',
-    prompt: 'Create a NotebookLM infographic as a pastel flat-lay knolling comparison with photoreal stationery, top-down composition, soft shadows, careful alignment, and a clean left-versus-right visual metaphor.'
-  },
-  {
-    slug: 'holographic-isometric-flow',
-    name: 'Holographic Isometric Flow',
-    category: 'High-Tech / Cyber',
-    tags: ['holographic', 'isometric', 'ui'],
-    image: 'https://preview.redd.it/5-practical-infographic-design-styles-for-notebooklm-vol-2-v0-ohbg124z1pcg1.png?auto=webp&format=png&s=a565e58b2af36d965dbc5c0118196bdd4ff7a846&width=2752',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
-    summary: 'Deep dark background, floating panels, neon cyan accents, and layered isometric flow.',
-    prompt: 'Create a NotebookLM infographic with a holographic isometric UI aesthetic: dark backdrop, neon cyan accents, floating screens, wireframe structures, layered depth, and sleek analytical typography.'
-  },
-  {
-    slug: 'bauhaus-risograph-grid',
-    name: 'Bauhaus Risograph Grid',
-    category: 'Editorial / Modernist',
-    tags: ['bauhaus', 'risograph', 'flat design'],
-    image: 'https://preview.redd.it/5-practical-infographic-design-styles-for-notebooklm-vol-2-v0-decp8yu37qcg1.png?auto=webp&format=png&s=0eb1ee379d0635043f60295ffca00b73e6b4abde&width=1542',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
-    summary: 'Bold geometry, flat spot color, numbered sequences, and poster-grade modernism.',
-    prompt: 'Create a NotebookLM infographic in Bauhaus risograph style with geometric shapes, bold sans-serif headings, flat spot-color blocks, numbered sequences, and disciplined educational structure.'
-  },
-  {
-    slug: 'manga-instructional-comic',
-    name: 'Manga Instructional Comic',
+    slug: 'retro-comic-action-blueprint',
+    name: 'Retro-Comic Action Blueprint',
     category: 'Retro / Comic',
-    tags: ['manga', 'storytelling', 'comic'],
-    image: 'https://preview.redd.it/5-practical-infographic-design-styles-for-notebooklm-vol-2-v0-hk13pz1htpcg1.png?auto=webp&format=png&s=e7d18123cd34274c697d0eb4067ed2755cf1ad99&width=1677',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
-    summary: 'Expressive comic sequencing with bubbles, mood backgrounds, and brushy emphasis.',
-    prompt: 'Create a NotebookLM infographic in manga instructional-comic style with jagged speech bubbles, emotional iconography, abstract mood backgrounds, dramatic emphasis text, and strong visual storytelling.'
-  },
-  {
-    slug: 'passport-travel-archive',
-    name: 'Passport Travel Archive',
-    category: 'Vintage / Editorial',
-    tags: ['travel', 'passport ui', 'paper texture'],
-    image: 'https://preview.redd.it/5-practical-infographic-design-styles-for-notebooklm-vol-2-v0-42cij5kd5pcg1.png?auto=webp&format=png&s=6b8ab9ea299b662a8326168656e6d710418c282b&width=2752',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
-    summary: 'Warm paper texture with passport/document motifs and typography-led layout.',
-    prompt: 'Create a NotebookLM infographic with a retro travel archive / passport UI aesthetic using warm paper texture, document motifs, stamped sections, strong typography, and a tidy editorial layout.'
-  },
-  {
-    slug: 'notebook-study-sheet',
-    name: 'Notebook Study Sheet',
-    category: 'Handmade / Casual',
-    tags: ['notebook', 'handwritten', 'analogue'],
-    image: 'https://preview.redd.it/5-practical-infographic-design-styles-for-notebooklm-vol-2-v0-bkflgkwuvpcg1.png?auto=webp&format=png&s=bc8f9eeda36ef8d26a90d0a13817353cee30cb89&width=1646',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
-    summary: 'Ruled paper, arrows, coffee-ring artifacts, and casual handwritten explanation.',
-    prompt: 'Create a NotebookLM infographic as a handwritten notebook study sheet with ruled paper, marker headings, red underlines, arrows, coffee-ring artifacts, mixed print handwriting, and an authentic sketch-note feel.'
-  },
-  {
-    slug: 'blueprint-flow-board',
-    name: 'Blueprint Flow Board',
-    category: 'Technical / Blueprint',
-    tags: ['blueprint', 'flow', 'industrial'],
-    image: 'https://preview.redd.it/5-practical-infographic-design-styles-for-notebooklm-vol-2-v0-decp8yu37qcg1.png?auto=webp&format=png&s=0eb1ee379d0635043f60295ffca00b73e6b4abde&width=1542',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
-    summary: 'Grid overlay, gear motifs, ticks, CAD footer details, and structured flow blocks.',
-    prompt: 'Create a NotebookLM infographic in technical blueprint flow-board style with a white square mesh grid, CAD-like layout, mechanical motifs, flow connectors, technical borders, and industrial process clarity.'
-  },
-  {
-    slug: 'clay-stop-motion-explainer',
-    name: 'Clay Stop-Motion Explainer',
-    category: 'Textured / Craft',
-    tags: ['clay', 'stop motion', 'playful'],
-    image: 'https://preview.redd.it/5-practical-infographic-design-styles-for-notebooklm-vol-2-v0-bkflgkwuvpcg1.png?auto=webp&format=png&s=bc8f9eeda36ef8d26a90d0a13817353cee30cb89&width=1646',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
-    summary: 'Plasticine characters, rounded edges, matte clay texture, and stop-motion warmth.',
-    prompt: 'Create a NotebookLM infographic in clay stop-motion style with plasticine characters, rounded arrows, matte clay textures, slight surface imperfections, and a playful approachable explanatory layout.'
-  },
-  {
-    slug: 'chalkboard-workshop-guide',
-    name: 'Chalkboard Workshop Guide',
-    category: 'Handmade / Classroom',
-    tags: ['chalkboard', 'hand-drawn', 'educational'],
-    image: 'https://preview.redd.it/5-practical-infographic-design-styles-for-notebooklm-vol-2-v0-bkflgkwuvpcg1.png?auto=webp&format=png&s=bc8f9eeda36ef8d26a90d0a13817353cee30cb89&width=1646',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
-    summary: 'Dark slate background, chalk dust, ribbon banners, and sketched icons.',
-    prompt: 'Create a NotebookLM infographic as a chalkboard workshop guide with slate texture, rough chalk lines, ribbon banners, doodle ornaments, hatched icons, and bright underlined emphasis.'
-  },
-  {
-    slug: 'bento-tech-product-sheet',
-    name: 'Bento Tech Product Sheet',
-    category: 'Modern UI',
-    tags: ['bento', 'product sheet', 'premium'],
-    image: 'https://preview.redd.it/5-practical-infographic-design-styles-for-notebooklm-vol-2-v0-decp8yu37qcg1.png?auto=webp&format=png&s=0eb1ee379d0635043f60295ffca00b73e6b4abde&width=1542',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
-    summary: 'Rounded squircles, hero product shot, big metrics, and premium minimalist spacing.',
-    prompt: 'Create a NotebookLM infographic as a premium bento-box tech product sheet with rounded container cards, large metrics, minimal iconography, generous white space, and a precise modern product aesthetic.'
-  },
-  {
-    slug: 'retro-comic-blueprint',
-    name: 'Retro Comic Blueprint',
-    category: 'Retro / Comic',
-    tags: ['comic', 'halftone', 'heroic'],
-    image: 'https://preview.redd.it/7x-fantastic-notebooklm-infographics-styles-set-v0-yk677v1gvkcg1.png?auto=webp&format=png&s=892bddb921b9a4a58ec3c3fa433fc162edc711e4&width=2752',
+    tags: ['pop art', 'comic book', 'retro', 'high-energy', 'vintage illustration'],
+    image: 'https://i.redd.it/yk677v1gvkcg1.png',
     source: 'https://www.reddit.com/r/notebooklm/comments/1q9e3kw/7x_fantastic_notebooklm_infographics_styles_set/',
-    summary: 'Bright pop-art energy with halftone dots, speech bubbles, and heavy outlines.',
-    prompt: 'Create a NotebookLM infographic in retro comic-book style with bold outlines, halftone shading, speech bubbles, action panels, and an energetic, highly legible educational layout.'
+    summary: 'Heroic comic-book infographic with halftone shading, jagged bursts, and thick ink outlines.',
+    prompt: `Overall Tone: Energetic, heroic, authoritative, and engagingly nostalgic.\n\nColors: Background #FFDD00, Text #000000, Accent #FF3333\n\nImage Style: Thick black ink outlines, Ben-Day dot shading patterns, speech bubbles, explosive action bursts, dynamic motion lines, panel borders.\n\nTexture: Vintage newsprint aesthetic, halftone screens, flat color fills with graphic heavy shadows.\n\nComposition: Central hero object (product) serving as the focal point, with radiating informational callouts organized in dynamic clouds, jagged bursts, and comic strips.\n\nLighting: Flat illustrative lighting with high-contrast hard shadows and rim lighting to define volume.\n\nTypography Style: Heavy, condensed comic-book style display font (All-Caps), often featuring 3D extrusions or heavy strokes.\n\nCategories: Pop Art, Comic Book, Retro, High-Energy, Vintage Illustration\n\nInstruction: Create a high-fidelity infographic matching the visual DNA of "Retro-Comic Action Blueprint".\n\nReference extracted metadata for exact aesthetic and structural adherence.`
   },
   {
     slug: 'engineering-blueprint-schematic',
     name: 'Engineering Blueprint Schematic',
     category: 'Technical / Blueprint',
-    tags: ['blueprint', 'schematic', 'engineering'],
-    image: 'https://preview.redd.it/7x-fantastic-notebooklm-infographics-styles-set-v0-qbpa4d7rvkcg1.png?auto=webp&format=png&s=2ab2315cd99726be5d75f41c6bd8aa008809a982&width=2752',
+    tags: ['technical', 'blueprint', 'schematic', 'industrial design', 'infographic'],
+    image: 'https://i.redd.it/qbpa4d7rvkcg1.png',
     source: 'https://www.reddit.com/r/notebooklm/comments/1q9e3kw/7x_fantastic_notebooklm_infographics_styles_set/',
-    summary: 'Exploded-view diagrams, line precision, and industrial schematic clarity.',
-    prompt: 'Create a NotebookLM infographic in engineering blueprint schematic style with crisp vector line work, exploded views, technical callouts, condensed sans-serif labels, and a precise industrial feel.'
+    summary: 'Exploded-view technical aesthetic with blueprint lines, drafting grid, and modular callouts.',
+    prompt: `Overall Tone: Authoritative, precise, analytical, sophisticated, engineered\n\nColors: Background #0b1623, Text #f0f0f0, Accent #ff9f30\n\nImage Style: Exploded view wireframe, angular leader lines, drafting grid background, technical iconography\n\nTexture: Digital blueprint, vector-sharp lines, matte schematic surface\n\nComposition: Centralized exploded artifact surrounded by modular data clusters and callouts\n\nLighting: Flat, high-contrast schematic illumination with neon-like line visibility\n\nTypography Style: Condensed Sans-Serif (e.g., DIN, Roboto Condensed)\n\nCategories: Technical, Blueprint, Schematic, Industrial Design, Infographic\n\nInstruction: Create a high-fidelity infographic matching the visual DNA of "Engineering Blueprint Schematic".\n\nReference extracted metadata for exact aesthetic and structural adherence.`
   },
   {
     slug: 'thermal-insight-tech',
     name: 'Thermal Insight Tech',
     category: 'High-Tech / Cyber',
-    tags: ['thermal', 'cyber', 'surveillance'],
-    image: 'https://preview.redd.it/7x-fantastic-notebooklm-infographics-styles-set-v0-u57emw5uvkcg1.png?auto=webp&format=png&s=fa838f975213bafa3d1e3f5a83e1c74f8c492587&width=2752',
+    tags: ['high-tech', 'surveillance', 'infographic', 'thermal imaging', 'cyber'],
+    image: 'https://i.redd.it/u57emw5uvkcg1.png',
     source: 'https://www.reddit.com/r/notebooklm/comments/1q9e3kw/7x_fantastic_notebooklm_infographics_styles_set/',
-    summary: 'Infrared palette, emissive gradients, and futuristic instrumentation.',
-    prompt: 'Create a NotebookLM infographic with a thermal imaging cyber-tech look using emissive heat-map gradients, dark background fields, symmetrical panels, HUD overlays, and bold uppercase technical typography.'
+    summary: 'Thermal heat-map palette, HUD overlays, and symmetrical futuristic feature grids.',
+    prompt: `Overall Tone: Analytical, Authoritative, Futuristic, Industrial\n\nColors: Background #050B26, Text #FFFFFF, Accent #FFC800\n\nImage Style: Thermal heat map spectrums (blue to red), technical HUD overlays, wireframe crosshairs, framed inset screenshots\n\nTexture: Digital smooth, luminous neon gradients, clean vector lines\n\nComposition: Central hero product with radial focus, flanked by symmetrical feature grids in two columns\n\nLighting: Emissive bio-luminescent glow, high contrast neon against dark void, simulated infrared radiation\n\nTypography Style: Bold Sans-Serif Condensed Uppercase\n\nCategories: High-Tech, Surveillance, Infographic, Thermal Imaging, Cyber\n\nInstruction: Create a high-fidelity infographic matching the visual DNA of "Thermal Insight Tech".\n\nReference extracted metadata for exact aesthetic and structural adherence.`
   },
   {
     slug: 'neumorphic-tech-schematic',
     name: 'Neumorphic Tech Schematic',
     category: 'Modern UI',
-    tags: ['neumorphism', 'soft shadow', 'corporate'],
-    image: 'https://preview.redd.it/7x-fantastic-notebooklm-infographics-styles-set-v0-apmgajqxvkcg1.png?auto=webp&format=png&s=e701dcb743d7590a0653c438a49fbe07be41911b&width=2752',
+    tags: ['corporate tech', 'neumorphism', 'data visualization', 'clean minimalist', 'symmetrical'],
+    image: 'https://i.redd.it/apmgajqxvkcg1.png',
     source: 'https://www.reddit.com/r/notebooklm/comments/1q9e3kw/7x_fantastic_notebooklm_infographics_styles_set/',
-    summary: 'Rounded UI blocks, subtle depth, soft shadows, and polished enterprise symmetry.',
-    prompt: 'Create a NotebookLM infographic in neumorphic tech schematic style with soft shadows, rounded panels, subtle depth, center-weighted symmetry, and a polished corporate-tech feel.'
+    summary: 'Hub-and-spoke vector layout with soft shadows and corporate-tech clarity.',
+    prompt: `Overall Tone: Professional, informative, structured, and sleek with a focus on technical clarity and modern security.\n\nColors: Background #F4F6F8, Text #2C2C2C, Accent #EB5757\n\nImage Style: Centralized hub-and-spoke layout, gradient flow lines, soft circular containers for icons, clean vector iconography.\n\nTexture: Smooth matte digital surface with subtle soft shadows for depth perception.\n\nComposition: Bilateral symmetry with a central focal point; branching curved connectors leading to balanced text blocks on left and right margins.\n\nLighting: Soft, diffuse ambient lighting creating gentle drop shadows (neumorphic effect) to lift key elements off the background.\n\nTypography Style: Condensed Sans-Serif (e.g., Roboto Condensed or Oswald), Uppercase, Bold\n\nCategories: Corporate Tech, Neumorphism, Data Visualization, Clean Minimalist, Symmetrical\n\nInstruction: Create a high-fidelity infographic matching the visual DNA of "Neumorphic Tech Schematic".\n\nReference extracted metadata for exact aesthetic and structural adherence.`
   },
   {
     slug: 'sumi-e-tech-scroll',
     name: 'Sumi-e Tech Scroll',
     category: 'Artistic / Cultural',
-    tags: ['ink wash', 'parchment', 'refined'],
-    image: 'https://preview.redd.it/7x-fantastic-notebooklm-infographics-styles-set-v0-wqiknfn2wkcg1.png?auto=webp&format=png&s=4f233530e1712b1f5a029b6b7c94af4cdc49dbd9&width=2752',
+    tags: ['ink wash', 'neo-traditional', 'east asian fusion', 'parchment', 'artistic technical'],
+    image: 'https://i.redd.it/wqiknfn2wkcg1.png',
     source: 'https://www.reddit.com/r/notebooklm/comments/1q9e3kw/7x_fantastic_notebooklm_infographics_styles_set/',
-    summary: 'Ink-wash elegance fused with disciplined diagrams and parchment restraint.',
-    prompt: 'Create a NotebookLM infographic blending sumi-e ink wash and modern explanation with parchment texture, restrained color, elegant serif typography, and brush-led diagram framing.'
+    summary: 'East Asian ink-wash textures blended with modern technical diagrams and parchment grain.',
+    prompt: `Overall Tone: Sophisticated, Timeless, authoritative, and culturally fused.\n\nColors: Background #F4F1E8, Text #0D0D0D, Accent #8A1C15\n\nImage Style: Integration of traditional East Asian ink wash (Sumi-e) landscapes with crisp, modern isometric technical diagrams. Use of brush strokes for framing.\n\nTexture: Aged rice paper grain, fibrous background, ink bleed, splatter effects, and dry brush textures.\n\nComposition: Bilateral symmetry divided by a central vertical line; balanced two-column layout with iconographic illustrations paired with text blocks.\n\nLighting: Flat, ambient natural light consistent with paper media; depth created through ink density and shading layers rather than photorealistic lighting.\n\nTypography Style: Classical Serif (e.g., Garamond or Caslon Bold)\n\nCategories: Ink Wash, Neo-Traditional, East Asian Fusion, Parchment, Artistic Technical\n\nInstruction: Create a high-fidelity infographic matching the visual DNA of "Sumi-e Tech Scroll".\n\nReference extracted metadata for exact aesthetic and structural adherence.`
   },
   {
     slug: 'steampunk-nebula-explorer',
     name: 'Steampunk Nebula Explorer',
     category: 'Vintage / Sci-Fi',
-    tags: ['steampunk', 'retro-futurism', 'space'],
-    image: 'https://preview.redd.it/7x-fantastic-notebooklm-infographics-styles-set-v0-wx9opco7wkcg1.png?auto=webp&format=png&s=01356243803563f52a23fdff60951ea1e5a68fbe&width=2752',
+    tags: ['steampunk', 'retro-futurism', 'sci-fi', 'vintage industrial', 'space'],
+    image: 'https://i.redd.it/wx9opco7wkcg1.png',
     source: 'https://www.reddit.com/r/notebooklm/comments/1q9e3kw/7x_fantastic_notebooklm_infographics_styles_set/',
-    summary: 'Brass machinery, cosmic contrast, and Victorian retro-futurist drama.',
-    prompt: 'Create a NotebookLM infographic in steampunk retro-futurist space style with brass mechanical motifs, pipes, gears, vintage condensed slab-serif text, layered collage structure, and cinematic warm-versus-cool contrast.'
+    summary: 'Brass gears, copper piping, cosmic nebula, and layered collage around a central explorer.',
+    prompt: `Overall Tone: Adventurous, Technical, Imaginative, Industrial, Authoritative\n\nColors: Background #0d1b33, Text #2b1d0e, Accent #cd7f32\n\nImage Style: Central steampunk astronaut illustration, interlocking brass gears, copper piping connecting data points, deep space nebula background, torn parchment text containers, analog gauges.\n\nTexture: Weathered paper grain, brushed bronze metal, starry cosmic void, matte illustration finish, distressed edges.\n\nComposition: Central hero figure with radial data points connected by visual conduits (pipes/gears), utilizing a layered collage aesthetic with symmetrical balance.\n\nLighting: Cinematic warm rim lighting on the central figure contrasting with cool ambient starlight, specular highlights on metallic surfaces, soft shadows under paper elements.\n\nTypography Style: Vintage Condensed Slab Serif (Distressed)\n\nCategories: Steampunk, Retro-Futurism, Sci-Fi, Vintage Industrial, Space\n\nInstruction: Create a high-fidelity infographic matching the visual DNA of "Steampunk Nebula Explorer".\n\nReference extracted metadata for exact aesthetic and structural adherence.`
   },
   {
     slug: 'pcb-schematic-architecture',
     name: 'PCB Schematic Architecture',
     category: 'Technical / Blueprint',
-    tags: ['pcb', 'electronics', 'circuit'],
-    image: 'https://preview.redd.it/7x-fantastic-notebooklm-infographics-styles-set-v0-i2l5579awkcg1.png?auto=webp&format=png&s=08b2c29a95dbb738366368392d91d203a8d3ef0f&width=2752',
+    tags: ['engineering', 'tech-industrial', 'data visualization', 'schematic', 'retro-futurism'],
+    image: 'https://i.redd.it/i2l5579awkcg1.png',
     source: 'https://www.reddit.com/r/notebooklm/comments/1q9e3kw/7x_fantastic_notebooklm_infographics_styles_set/',
-    summary: 'Board-like composition with copper traces, nodes, and dense circuit logic.',
-    prompt: 'Create a NotebookLM infographic with a PCB schematic architecture look using a board-like background, copper trace connectors, integrated-circuit nodes, compact labeling, and strong diagrammatic clarity.'
+    summary: 'Printed-circuit-board aesthetic with copper traces, component nodes, and grid-aligned paths.',
+    prompt: `Overall Tone: Precision-engineered, technical, authoritative, and structured.\n\nColors: Background #0F3B2C, Text #EAD0AC, Accent #D98C53\n\nImage Style: Printed circuit board (PCB) aesthetic, connecting copper traces, solder pads, integrated circuit (IC) chip outlines, and component nodes.\n\nTexture: Matte FR-4 epoxy glass substrate simulation, flat vector illustration, clean line art without noise.\n\nComposition: Network-based layout with a central core component connected to peripheral data clusters via grid-aligned paths (traces).\n\nLighting: Flat, uniform schematic lighting; reliance on color contrast rather than shadows to define depth.\n\nTypography Style: Industrial Monospace or DIN Condensed, Uppercase\n\nCategories: Engineering, Tech-Industrial, Data Visualization, Schematic, Retro-Futurism\n\nInstruction: Create a high-fidelity infographic matching the visual DNA of "PCB Schematic Architecture".\n\nReference extracted metadata for exact aesthetic and structural adherence.`
   },
   {
-    slug: 'architectural-comparison-schematic',
-    name: 'Architectural Comparison Schematic',
-    category: 'Technical / Blueprint',
-    tags: ['architectural', 'comparison', 'line art'],
-    image: 'https://preview.redd.it/7x-fantastic-notebooklm-infographics-styles-set-v0-qbpa4d7rvkcg1.png?auto=webp&format=png&s=2ab2315cd99726be5d75f41c6bd8aa008809a982&width=2752',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1q9e3kw/7x_fantastic_notebooklm_infographics_styles_set/',
-    summary: 'Technical line art, dimension markers, floor-plan symbols, and split comparison flow.',
-    prompt: 'Create a NotebookLM infographic in architectural comparison schematic style with technical line art, dimension markers, architectural symbols, isometric detail inserts, and a balanced split-screen comparison layout.'
-  },
-  {
-    slug: 'kawaii-candy-clouds',
-    name: 'Kawaii Candy Clouds',
-    category: 'Cute / Decorative',
-    tags: ['kawaii', 'pastel', 'girly'],
-    image: 'https://preview.redd.it/7x-fantastic-notebooklm-infographics-styles-set-v0-yk677v1gvkcg1.png?auto=webp&format=png&s=892bddb921b9a4a58ec3c3fa433fc162edc711e4&width=2752',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1q9e3kw/7x_fantastic_notebooklm_infographics_styles_set/',
-    summary: 'Pink base, rainbow gradients, fluffy clouds, stars, candies, and mascot cuteness.',
-    prompt: 'Create a NotebookLM infographic in kawaii candy-cloud style with pastel pink base, rainbow gradients, fluffy clouds, stars, hearts, candy motifs, rounded balloon typography, and cheerful decorative framing.'
-  },
-  {
-    slug: 'voxel-pastel-gameboard',
-    name: 'Voxel Pastel Gameboard',
-    category: 'Cute / Gameful',
-    tags: ['voxel', 'pastel', 'gamification'],
-    image: 'https://preview.redd.it/7x-fantastic-notebooklm-infographics-styles-set-v0-apmgajqxvkcg1.png?auto=webp&format=png&s=e701dcb743d7590a0653c438a49fbe07be41911b&width=2752',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1q9e3kw/7x_fantastic_notebooklm_infographics_styles_set/',
-    summary: 'Friendly pastel voxel/isometric composition with game-like progression logic.',
-    prompt: 'Create a NotebookLM infographic in pastel voxel gameboard style with blocky isometric forms, soft rounded typography, cheerful gamified progression, pastel color blocks, and approachable educational structure.'
-  },
-  {
-    slug: 'ukiyoe-kaiju-strategy',
-    name: 'Ukiyo-e Kaiju Strategy',
-    category: 'Artistic / Cultural',
-    tags: ['ukiyoe', 'woodblock', 'kaiju'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-9ngv5vbnl3dg1.png?auto=webp&crop=smart&s=6f03a6cbd55483d86263a88fdc1ed7d02335b206&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qactmc/9_creative_notebooklm_infographics_slide_deck/',
-    summary: 'Woodblock revival with Great Wave energy, brush outlines, and mythic narrative framing.',
-    prompt: 'Create a NotebookLM infographic in ukiyo-e kaiju strategy style with washi-paper grain, bold brush outlines, Great Wave motifs, woodblock-inspired color blocking, and a structured narrative triptych.'
-  },
-  {
-    slug: 'crt-hacker-terminal',
-    name: 'CRT Hacker Terminal',
-    category: 'Retro Computing',
-    tags: ['crt', 'hacker', 'glitch'],
-    image: 'https://preview.redd.it/5-practical-infographic-design-styles-for-notebooklm-vol-2-v0-bkflgkwuvpcg1.png?auto=webp&format=png&s=bc8f9eeda36ef8d26a90d0a13817353cee30cb89&width=1646',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qactmc/9_creative_notebooklm_infographics_slide_deck/',
-    summary: 'Pixel monospace, CRT glow, terminal framing, and retro-futurist hacker tension.',
-    prompt: 'Create a NotebookLM infographic in CRT hacker terminal style with phosphor glow, pixel monospace text, scanline feel, glitch details, red or green terminal UI framing, and retro-futurist data density.'
-  },
-  {
-    slug: 'botanical-scientific-plate',
-    name: 'Botanical Scientific Plate',
-    category: 'Vintage / Editorial',
-    tags: ['botanical', 'scientific illustration', 'academic'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-mp85uvbnl3dg1.png?auto=webp&crop=smart&s=59b2db232da8365609776cf15f64fdf00c8172e0&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qactmc/9_creative_notebooklm_infographics_slide_deck/',
-    summary: 'Parchment, fine botanical linework, vine borders, and scholarly serif typography.',
-    prompt: 'Create a NotebookLM infographic in vintage botanical scientific plate style with parchment tone, delicate linework, leafy borders, old-style serif typography, and academic annotation structure.'
-  },
-  {
-    slug: 'belle-epoque-lithograph',
-    name: 'Belle Époque Lithograph',
-    category: 'Vintage / Editorial',
-    tags: ['belle epoque', 'lithograph', 'historical'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-32bomv3ql3dg1.png?auto=webp&crop=smart&s=7adaeb5f7a598922cde3350418eee76a96ce73c8&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qactmc/9_creative_notebooklm_infographics_slide_deck/',
-    summary: 'Sepia intellectual poster feel with aristocratic elegance and print-era authority.',
-    prompt: 'Create a NotebookLM infographic in Belle Époque lithograph style with soft parchment tones, sepia body text, terracotta title accents, elegant framing, historical poster composition, and refined editorial hierarchy.'
-  },
-  {
-    slug: 'retro-intellectual-print',
-    name: 'Retro Intellectual Print',
-    category: 'Vintage / Editorial',
-    tags: ['lo-fi print', 'retro intellectual', 'nostalgic'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-d8k5re5ql3dg1.png?auto=webp&crop=smart&s=898e5362f757607baf6020a05016d80c7b2f558e&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qactmc/9_creative_notebooklm_infographics_slide_deck/',
-    summary: 'Approachable lo-fi print treatment for complex ideas using nostalgic editorial cues.',
-    prompt: 'Create a NotebookLM infographic in retro-intellectual print style with soft print texture, restrained palette, tactile paper feel, approachable editorial blocks, and nostalgic pre-digital diagram logic.'
-  },
-  {
-    slug: 'clean-tech-futurist',
-    name: 'Clean Tech Futurist',
+    slug: 'analytical-grid-report',
+    name: 'Analytical Grid Report',
     category: 'Corporate / Clean',
-    tags: ['minimal tech', 'future clean', 'flat design'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-mp85uvbnl3dg1.png?auto=webp&crop=smart&s=59b2db232da8365609776cf15f64fdf00c8172e0&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qactmc/9_creative_notebooklm_infographics_slide_deck/',
-    summary: 'Minimal clean-tech presentation with futuristic flat-design restraint.',
-    prompt: 'Create a NotebookLM infographic in clean-tech futurist style with minimalist structure, precise flat design, restrained palette, crisp sans-serif typography, and a polished product-facing aesthetic.'
+    tags: ['schematic', 'architectural', 'process mapping', 'technical', 'educational'],
+    image: 'https://i.redd.it/ohbg124z1pcg1.png',
+    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
+    summary: 'Architectural line art, dimension markers, and grid-aligned process diagrams.',
+    prompt: `Overall Design Settings:\n\nTone: "Analytical, Precise, Pedagogical, Structured, Professional"\n\nVisual Identity:\n\nBackground Color: "#F9F9F9"\n\nText Color: "#222222"\n\nAccent Color: "#5B9BD5"\n\nSecondary Colors: ["#C0392B", "#EAF4FC", "#888888", "#FFFFFF", "#D3D3D3"]\n\nImage Style:\nFeatures: "Technical line art, dimension markers, architectural floor plan symbols, isometric diagrams, directional flow arrows"\n\nTexture: "Flat digital paper, smooth vector lines, schematic cleanliness"\n\nComposition: "Split-screen comparative layout, hierarchical vertical flow, balanced whitespace, grid-aligned diagrams"\n\nLighting: "Flat diagrammatic lighting, consistent uniform visibility, no gradients"\n\nLine Weight: "Thin, precise strokes (1px-2px) for structures; dashed lines for logic flow"\n\nTypography:\nHeading: "Heavy Gothic Sans-Serif"\nBody Font: "Medium weight Sans-Serif (Legible at small sizes)"\n\nCategories:\nTags: ["Schematic", "Architectural", "Process Mapping", "Technical", "Educational"]`
   },
   {
-    slug: 'monochrome-manga-action',
-    name: 'Monochrome Manga Action',
-    category: 'Retro / Comic',
-    tags: ['manga', 'monochrome', 'dynamic'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-q1mntubnl3dg1.png?auto=webp&crop=smart&s=b0e0ef41ab3926eafb1c8a39c054370afce29fe0&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qfd9yr/8_incredible_notebooklm_infographic_styles/',
-    summary: 'Black-and-white manga pacing with speed lines, screentones, and impact typography.',
-    prompt: 'Create a NotebookLM infographic in monochrome manga action style with speed lines, halftone dots, cross-hatching, jagged speech bubbles, impact bursts, and dynamic top-down panel flow.'
-  },
-  {
-    slug: 'radial-corporate-journey',
-    name: 'Radial Corporate Journey',
-    category: 'Corporate / Clean',
-    tags: ['corporate', 'radial', 'process flow'],
-    image: 'https://preview.redd.it/12-fabulous-notebooklm-infographic-slide-deck-graphic-styles-v0-mp85uvbnl3dg1.png?auto=webp&crop=smart&s=59b2db232da8365609776cf15f64fdf00c8172e0&width=640',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qfd9yr/8_incredible_notebooklm_infographic_styles/',
-    summary: 'Semi-circular milestone arc with numbered steps and clean corporate clarity.',
-    prompt: 'Create a NotebookLM infographic in radial corporate journey style with a semi-circular timeline, numbered milestone segments, flat vector icons, centered process arc, and clean corporate labels.'
-  },
-  {
-    slug: 'neon-glassmorphic-flow',
-    name: 'Neon Glassmorphic Flow',
+    slug: 'holographic-isometric-flow',
+    name: 'Holographic Isometric Flow',
     category: 'High-Tech / Cyber',
-    tags: ['glassmorphism', 'neon', 'dark mode'],
-    image: 'https://preview.redd.it/5-practical-infographic-design-styles-for-notebooklm-vol-2-v0-ohbg124z1pcg1.png?auto=webp&format=png&s=a565e58b2af36d965dbc5c0118196bdd4ff7a846&width=2752',
-    source: 'https://www.reddit.com/r/notebooklm/comments/1qfd9yr/8_incredible_notebooklm_infographic_styles/',
-    summary: 'Dark-mode flowchart with glowing borders, rounded containers, and glassy neon depth.',
-    prompt: 'Create a NotebookLM infographic in neon glassmorphic flow style with glowing rounded containers, dark ambient background, subtle circuit patterns, cyan and purple edge light, and a structured top-to-bottom process flow.'
+    tags: ['cyberpunk', 'sci-fi interface', 'isometric 3d', 'data visualization', 'futuristic'],
+    image: 'https://i.redd.it/x2ctrky12pcg1.png',
+    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
+    summary: 'Floating isometric modules, glowing circuit traces, and sci-fi HUD framing.',
+    prompt: `Overall Design Settings:\n\nTone: "Futuristic, Analytical, Sophisticated, High-Tech, Cinematic"\n\nVisual Identity:\n\nBackground Color: "#020814"\n\nText Color: "#FFFFFF"\n\nAccent Color: "#00F0FF"\n\nSecondary Colors: ["#D600FF", "#0057FF", "#1C2E4A", "#80DEEA", "#1A1A2E"]\n\nImage Style:\n\nFeatures: "Isometric 3D rendered assets floating on platforms, interconnected by glowing circuit board traces. Holographic projection aesthetics with glass-like panels and digital artifacts."\n\nTexture: "Luminous neon, matte dark metal, translucent glass, smooth digital gradients, clean wireframe edges."\n\nComposition: "Centralized hub-and-spoke layout. A core element anchors the design (center chip), with connection lines leading to peripheral detailed modules. Enclosed in a technical HUD (Heads-Up Display) frame."\n\nLighting: "Internal luminescence (glow from within), neon backlighting, soft bloom effects, sharp specular highlights on metallic edges, deep high-contrast shadows."\n\nTypography:\n\nHeading: "Industrial Geometric Sans-Serif (e.g., Eurostile Bold, Orbitron)"\n\nBody Font: "Clean Modern Sans-Serif (e.g., Roboto, Open Sans)"\n\nCategories:\n\nTags: ["Cyberpunk", "Sci-Fi Interface", "Isometric 3D", "Data Visualization", "Futuristic"]`
   },
   {
-    slug: 'fractal-neon-recursion',
-    name: 'Fractal Neon Recursion',
-    category: 'High-Tech / Abstract',
-    tags: ['fractal', 'mathematical', 'neon'],
-    image: 'https://preview.redd.it/5-practical-infographic-design-styles-for-notebooklm-vol-2-v0-ohbg124z1pcg1.png?auto=webp&format=png&s=a565e58b2af36d965dbc5c0118196bdd4ff7a846&width=2752',
+    slug: 'retro-diner-split-screen',
+    name: 'Retro Diner Split Screen',
+    category: 'Retro / Pop',
+    tags: ['retro pop', 'american diner', 'vintage comic', 'split-screen', 'americana'],
+    image: 'https://i.redd.it/qzvunb672pcg1.png',
+    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
+    summary: 'Mint-and-pink split screen with chrome arrows, checkerboard borders, and diner-pop flair.',
+    prompt: `Overall Design Settings:\n\nTone: "Energetic, Nostalgic, Instructional, Playful, Bold"\n\nVisual Identity:\n\nBackground Color: "#9ED9CC"\n\nText Color: "#111111"\n\nAccent Color: "#E84E45"\n\nSecondary Colors: ["#F6C0C7", "#FFFFFF", "#B0B7BD", "#F2C865", "#5CCFE6"]\n\nImage Style:\n\nFeatures: "Split-screen layout (Mint/Pink), comic book character illustrations, speech bubbles, chrome arrow connectors, checkerboard borders."\n\nTexture: "Subtle halftone patterns, matte paper finish contrasting with glossy metallic rendering on UI elements."\n\nComposition: "Bilateral symmetry with a vertical chrome divider, heavy top and bottom banners, central flow diagrams."\n\nLighting: "Flat illustrative lighting with specific specular highlights on chrome arrows and neon glow effects on signage."\n\nTypography:\n\nHeading: "Heavy Impact Retro Display with White Outline and Drop Shadow"\n\nBody Font: "Clean, legible Gothic Sans-Serif"\n\nCategories:\n\nTags: ["Retro Pop", "American Diner", "Vintage Comic", "Split-Screen", "Americana"]`
+  },
+  {
+    slug: 'manga-process-panels',
+    name: 'Manga Process Panels',
+    category: 'Retro / Comic',
+    tags: ['manga', 'process', 'instructional', 'dramatic'],
+    image: 'https://i.redd.it/4jcczk3a2pcg1.png',
+    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
+    summary: 'Dynamic comic paneling with speed lines, screentones, and expressive process storytelling.',
+    prompt: `Overall Design Settings:\n\nTone: "Energetic, expressive, narrative-driven, and highly instructional with a dramatic flair."\n\nVisual Identity:\nBackground Color: "#FFFFFF"\n\nText Color: "#000000"\n\nAccent Color: "#1A1A1A"\n\nSecondary Colors: ["#4D4D4D", "#808080", "#B3B3B3", "#E6E6E6", "#F2F2F2"]\n\nImage Style:\n\nFeatures: "Dynamic comic paneling, expressive character acting (chibi/shonen style), heavy use of speed lines (beta flash), impact bursts, and integrated process diagrams."\n\nTexture: "Traditional ink aesthetics with halftone screentones (dots) for shading, crisp varied line weights, and paper-like contrast."\n\nComposition: "Asymmetric multi-panel layout with diagonal cuts to guide eye movement, narrative progression from problem (chaos) to solution (clarity)."\n\nLighting: "High-contrast binary lighting using black fills and white negative space, with depth created via screentone gradients and radial focus lines."\n\nTypography:\n\nHeading: "Hand-Lettered Bold Caps (Marker Style)"\n\nBody Font: "Neat, hand-printed sans-serif."\n\nCategories:\n\nTags: ["Manga", "Process", "Instructional", "Dramatic"]`
+  },
+  {
+    slug: 'notebook-study-sheet',
+    name: 'Notebook Study Sheet',
+    category: 'Handmade / Casual',
+    tags: ['hand-drawn', 'brainstorming', 'educational', 'analogue', 'sketch-note'],
+    image: 'https://i.redd.it/42cij5kd5pcg1.png',
+    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
+    summary: 'Ruled paper, marker strokes, coffee-ring artifacts, and informal explanatory diagrams.',
+    prompt: `Overall Design Settings:\n\nTone: "Authentic, intellectual, informal, creative, and instructional."\n\nVisual Identity:\n\nBackground Color: "#F4F1EA"\n\nText Color: "#0E2A5C"\n\nAccent Color: "#D12828"\n\nSecondary Colors: ["#C8AB83"]\n\nImage Style:\n\nFeatures: "Hand-drawn diagrams, spiral binding, coffee ring stains, arrows, stick figures, speech bubbles, stars for emphasis."\n\nTexture: "Matte paper grain, horizontal rule lines, ink bleed, liquid staining artifacts."\n\nComposition: "Top-down flowchart logic, loose organic grouping, utilization of white space for arrows and notes."\n\nLighting: "Flat, bright, natural ambient light simulating a desktop scan."\n\nTypography:\n\nHeading: "Hand-Lettered Bold Caps (Marker Style)"\n\nBody Font: "Neat, hand-printed sans-serif."\n\nCategories:\n\nTags: ["Hand-drawn", "Brainstorming", "Educational", "Analogue", "Sketch-note"]`
+  },
+  {
+    slug: 'blueprint-flow-board',
+    name: 'Blueprint Flow Board',
+    category: 'Technical / Blueprint',
+    tags: ['blueprint', 'technical', 'engineering', 'process flow', 'industrial'],
+    image: 'https://i.redd.it/yds9qrvg5pcg1.png',
+    source: 'https://www.reddit.com/r/notebooklm/comments/1q9vs84/5_practical_infographic_design_styles_for/',
+    summary: 'CAD-style blue grid, mechanical motifs, and split-panel process flow.',
+    prompt: `Overall Design Settings:\n\nTone: "Analytical, precise, structural, educational, and authoritative."\n\nVisual Identity:\n\nBackground Color: "#1C4E80"\n\nText Color: "#FFFFFF"\n\nAccent Color: "#E85D5D"\n\nSecondary Colors: ["#F2D64B", "#8FBCE6"]\n\nImage Style:\n\nFeatures: "CAD-inspired layout, mechanical gear motifs, flowchart connectors, and modular information blocks."\n\nTexture: "Subtle paper grain background with a precise, fine-line vector grid overlay."\n\nComposition: "Split-panel logic flow (Problem vs Solution), framed by technical borders with measurement ticks."\n\nLighting: "Flat, high-contrast schematic lighting with no gradients, emphasizing line clarity."\n\nTypography:\n\nHeading: "Bold Geometric Sans-Serif"\n\nBody: "Clean, Monolinear Sans-Serif"\n\nCategories:\n\nTags: ["Blueprint", "Technical", "Engineering", "Process Flow", "Industrial"]`
+  },
+  {
+    slug: 'psychedelic-flower-power',
+    name: 'Psychedelic Flower Power',
+    category: 'Retro / Maximalist',
+    tags: ['psychedelic', 'retro pop', '70s aesthetic', 'flower power', 'maximalist'],
+    image: 'https://i.redd.it/7qz3mw3ql3dg1.png',
     source: 'https://www.reddit.com/r/notebooklm/comments/1qbonx8/12_fabulous_notebooklm_infographic_slide_deck/',
-    summary: 'Recursive spirals, glowing filaments, and cyber-psychedelic mathematical drama.',
-    prompt: 'Create a NotebookLM infographic in fractal neon recursion style with Mandelbrot-like spirals, glowing filaments, dark negative space, smooth gradient luminescence, and elegant minimal technical typography.'
+    summary: 'Wavy rainbow borders, peace signs, mushrooms, daisies, and fluid compartments.',
+    prompt: `Overall Design Settings:\n\nTone: "Playful, energetic, whimsical, and engagingly educational."\n\nVisual Identity:\n\nBackground Color: "#FFF9C4"\n\nText Color: "#2A0A4A"\n\nAccent Color: "#FF6E40"\n\nSecondary Colors: ["#F06292", "#4DD0E1", "#9575CD", "#AED581", "#FFAB00"]\n\nImage Style:\n\nFeatures: "Wavy rainbow borders, peace signs, mushrooms, daisies, and organic fluid shapes framing content."\n\nTexture: "Flat vector illustration with bold outlines; clean, matte finish."\n\nComposition: "Compartmentalized layout using fluid, wavy frames instead of rigid grids; central hub with radiating sections."\n\nLighting: "Flat, uniform high-key lighting with no realistic shading; reliance on color contrast."\n\nTypography:\n\nHeading: "Chunky, bubble-style rounded sans-serif with heavy outlines and drop shadows."\n\nBody Font: "Rounded Sans-Serif, Medium Weight"\n\nCategories:\n\nTags: ["Psychedelic", "Retro Pop", "70s Aesthetic", "Flower Power", "Maximalist"]`
+  },
+  {
+    slug: 'versus-anime-hud',
+    name: 'Versus Anime HUD',
+    category: 'Pop Culture / Gaming',
+    tags: ['gamification', 'anime aesthetic', 'versus mode', 'high-energy', 'cyber vs traditional'],
+    image: 'https://i.redd.it/q1mntubnl3dg1.png',
+    source: 'https://www.reddit.com/r/notebooklm/comments/1qbonx8/12_fabulous_notebooklm_infographic_slide_deck/',
+    summary: 'Split-screen versus layout with manga energy, speed lines, sparks, and HUD elements.',
+    prompt: `Overall Design Settings:\n\nTone: "Competitive, Dynamic, Illustrative, High-Octane"\n\nVisual Identity:\n\nBackground Color: "#1a0f1f"\n\nText Color: "#ffffff"\n\nAccent Color: "#ffcc00"\n\nSecondary Colors: ["#ff4400", "#00eaff", "#5c3a21", "#1a2b5e", "#b3b3b3"]\n\nImage Style:\n\nFeatures: "Split-screen dichotomy, character avatars, fighting game HUD elements, elemental visual effects (fire vs electricity)"\n\nTexture: "Cel-shaded illustration, glossy UI overlays, particle-heavy atmosphere, jagged comic book aesthetic"\n\nComposition: "Symmetrical 'Versus' layout with central anchor, distinct color-coded zones (warm left, cool right), dynamic diagonal energy lines"\n\nLighting: "High-contrast rim lighting, emissive glows from special effects, dramatic spotlights on characters"\n\nTypography:\n\nHeading: "Heavy Impact Manga Style"\n\nBody Font: "Bold Sans-Serif (Rounded)"\n\nCategories:\n\nTags: ["Gamification", "Anime Aesthetic", "Versus Mode", "High-Energy", "Cyber vs Traditional"]`
+  },
+  {
+    slug: 'denim-patchwork-manual',
+    name: 'Denim Patchwork Manual',
+    category: 'Textured / Craft',
+    tags: ['skeuomorphic', 'textured', 'craft', 'denim', 'industrial'],
+    image: 'https://i.redd.it/88d6vu3ql3dg1.png',
+    source: 'https://www.reddit.com/r/notebooklm/comments/1qbonx8/12_fabulous_notebooklm_infographic_slide_deck/',
+    summary: 'Denim texture, embroidered labels, copper rivets, and stitched modular compartments.',
+    prompt: `Overall Design Settings:\n\nTone: "Tactile, instructional, durable, handcrafted, professional"\n\nVisual Identity:\n\nBackground Color: "#223C63"\n\nText Color: "#FFFFFF"\n\nAccent Color: "#DCB35C"\n\nSecondary Colors: ["#A83232", "#4D6D91", "#8E5C3E", "#B0B0B0"]\n\nImage Style:\n\nFeatures: "Realistic denim fabric background, embroidered text effects, patch-style diagrams, copper rivets, frayed edges"\n\nTexture: "Heavy cotton canvas weave, metallic hardness, raised thread relief, soft felt patches"\n\nComposition: "Vertical stack divided by stitched dashed lines, modular compartments for information flow"\n\nLighting: "Soft top-down ambient light creating subtle drop shadows under patches and embossing on text"\n\nTypography:\n\nHeading: "Bold Sans-Serif with Embroidered Relief"\n\nBody Font: "Rounded Sans-Serif"\n\nCategories:\n\nTags: ["Skeuomorphic", "Textured", "Craft", "Denim", "Industrial"]`
   }
 ];
 
