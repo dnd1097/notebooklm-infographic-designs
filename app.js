@@ -1,19 +1,33 @@
 const grid = document.getElementById('grid');
 const filters = document.getElementById('filters');
+const search = document.getElementById('search');
+const stats = document.getElementById('stats');
+
+let activeCategory = null;
+let activeQuery = '';
+
+function renderStats() {
+  stats.innerText = `${styles.length} styles • ${categories.length} categories`;
+}
 
 function renderFilters() {
   categories.forEach(cat => {
     const btn = document.createElement('button');
     btn.innerText = cat;
-    btn.onclick = () => renderGrid(cat);
+    btn.onclick = () => {
+      activeCategory = cat;
+      renderGrid();
+    };
     filters.appendChild(btn);
   });
 }
 
-function renderGrid(filter) {
+function renderGrid() {
   grid.innerHTML = '';
+
   styles
-    .filter(s => !filter || s.category === filter)
+    .filter(s => !activeCategory || s.category === activeCategory)
+    .filter(s => s.name.toLowerCase().includes(activeQuery))
     .forEach(s => {
       const div = document.createElement('div');
       div.className = 'card';
@@ -28,5 +42,11 @@ function renderGrid(filter) {
     });
 }
 
+search.addEventListener('input', e => {
+  activeQuery = e.target.value.toLowerCase();
+  renderGrid();
+});
+
+renderStats();
 renderFilters();
 renderGrid();
