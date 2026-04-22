@@ -9,6 +9,11 @@
   <a href="index.html">← Back to Library</a>
   <div id="content"></div>
 
+  <div id="zoomModal" class="zoom-modal">
+    <button class="zoom-close" onclick="closeZoom()">×</button>
+    <img id="zoomImg" src="" />
+  </div>
+
   <script src="data.js"></script>
   <script>
     const params = new URLSearchParams(window.location.search);
@@ -20,16 +25,14 @@
     if (style) {
       el.innerHTML = `
         <h1>${style.name}</h1>
-        <a href="${style.image}" target="_blank" rel="noopener noreferrer">
-          <img src="${style.image}" class="detail-image" alt="${style.name}" />
-        </a>
+        <img src="${style.image}" class="detail-image" onclick="openZoom('${style.image}')" />
+        <div class="zoom-hint">Click image to zoom</div>
         <p><b>Category:</b> ${style.category}</p>
         <p>${style.summary}</p>
         <h3>Original Prompt</h3>
-        <pre class="prompt" id="prompt">${style.prompt}</pre>
+        <pre class="prompt">${style.prompt}</pre>
         <button onclick="copyPrompt()">Copy Prompt</button>
-        <p><a href="${style.image}" target="_blank" rel="noopener noreferrer">Open full image</a></p>
-        <p><a href="${style.source}" target="_blank" rel="noopener noreferrer">View Source Thread</a></p>
+        <p><a href="${style.source}" target="_blank">View Source Thread</a></p>
       `;
     }
 
@@ -37,6 +40,25 @@
       navigator.clipboard.writeText(style.prompt);
       alert('Prompt copied');
     }
+
+    function openZoom(src) {
+      const modal = document.getElementById('zoomModal');
+      const img = document.getElementById('zoomImg');
+      img.src = src;
+      modal.classList.add('open');
+    }
+
+    function closeZoom() {
+      document.getElementById('zoomModal').classList.remove('open');
+    }
+
+    document.getElementById('zoomModal').addEventListener('click', function(e) {
+      if (e.target === this) closeZoom();
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeZoom();
+    });
   </script>
 </body>
 </html>
