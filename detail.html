@@ -20,13 +20,16 @@
     if (style) {
       el.innerHTML = `
         <h1>${style.name}</h1>
-        <img src="${style.image}" style="max-width:800px;width:100%" />
+        <a href="${style.image}" target="_blank" rel="noopener noreferrer">
+          <img src="${style.image}" class="detail-image" alt="${style.name}" />
+        </a>
         <p><b>Category:</b> ${style.category}</p>
         <p>${style.summary}</p>
-        <h3>Prompt</h3>
-        <div class="prompt" id="prompt">${style.prompt}</div>
+        <h3>Original Prompt</h3>
+        <pre class="prompt" id="prompt">${style.prompt}</pre>
         <button onclick="copyPrompt()">Copy Prompt</button>
-        <p><a href="${style.source}" target="_blank">View Source Thread</a></p>
+        <p><a href="${style.image}" target="_blank" rel="noopener noreferrer">Open full image</a></p>
+        <p><a href="${style.source}" target="_blank" rel="noopener noreferrer">View Source Thread</a></p>
       `;
     }
 
