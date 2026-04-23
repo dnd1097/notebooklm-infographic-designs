@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Precise, Structural, Industrial, Educational, Authoritative"
+
+Visual Identity:
+
+Background Color: "#1E5DA2"
+
+Text Color: "#FFFFFF"
+
+Accent Color: "#A8D5FF"
+
+Secondary Colors: ["#0F3666", "#5A8CC9", "#DCEEFF"]
+
+Image Style:
+
+Features: "White line art technical drawings, isometric projections, floor-plan schematics, measurement lines, dashed indicators, grid background."
+
+Texture: "Subtle grid paper overlay, matte finish, consistent vector strokes."
+
+Composition: "Modular layout divided by dashed vertical lines, balanced split-screen comparison, framed with technical borders and title blocks."
+
+Lighting: "Flat diagrammatic lighting, no directional shadows, high contrast for legibility."
+
+Line Weight: "Thin, uniform white strokes approx 1px-2px"
+
+Diagram Type: "Hybrid: 2D Floor Plan (Left) vs 3D Isometric Stack (Right)"
+
+Decorative Elements: "Dimension markers, arrows, dotted connection lines, technical stamps"
+
+Typography:
+
+Heading: "Geometric Sans-Serif (e.g., DIN, Roboto, or Noto Sans JP)"
+
+Hierarchy: "Bold uppercase headers, smaller technical labels, bracketed English translations"
+
+Style: "Technical labeling, clean, high-readability against dark background"
+
+Alignment: "Centered main titles, left-aligned descriptive labels"
+
+Categories:
+
+Tags: ["Blueprint", "Technical Schematic", "Engineering", "Infographic", "Isometric"]

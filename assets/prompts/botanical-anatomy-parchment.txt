@@ -1,0 +1,45 @@
+Overall Design Settings:
+
+Tone: "Scholarly, Timeless, Organic, Authoritative, Antiquated"
+
+Visual Identity:
+
+Background Color: "#F0E5D3"
+
+Text Color: "#1A1512"
+
+Accent Color: "#BF6B63"
+
+Secondary Colors: ["#6B7F5E", "#8C735A", "#CDB898", "#A65E55"]
+
+Image Style:
+
+Features: "Hand-drawn botanical anatomy, ornate vine borders, diagrammatic labels, metaphorical visualization"
+
+Texture: "Aged parchment, coffee stains, foxing, paper grain, watercolor wash, ink bleed"
+
+Composition: "Centralized anatomical subject rooted in ground, framed by symmetrical organic borders, peripheral text annotations with calligraphic flourishes"
+
+Lighting: "Flat illustrative lighting, soft ambient occlusion via stippling and cross-hatching"
+
+Line Work: "Fine quill ink with variable line weight and cross-hatching"
+
+Medium: "Watercolor wash over ink sketch on textured paper"
+
+Aging Effects: "Discoloration, water damage spots, worn edges"
+
+Border Style: "Intertwining leafy vines forming a rectangular frame"
+
+Typography:
+
+Heading: "Old Style Serif (Caslon or Garamond aesthetic)"
+
+Body: "Classic Italic Serif for Latin nomenclature and labels"
+
+Style: "Academic, Calligraphic, Pre-Digital Printing Press"
+
+Legibility: "High contrast ink against parchment"
+
+Categories:
+
+Tags: ["Vintage", "Botanical", "Scientific Illustration", "Academic", "Neo-Victorian"]

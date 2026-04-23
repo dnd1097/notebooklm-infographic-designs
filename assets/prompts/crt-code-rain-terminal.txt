@@ -1,0 +1,41 @@
+Overall Design Settings:
+
+Tone: "Cryptic, technological, dystopian, nostalgic, high-tech command line interface."
+
+Visual Identity:
+
+Background Color: "#020502"
+
+Text Color: "#4AF626"
+
+Accent Color: "#1A3B1A"
+
+Secondary Colors: ["#0D1F0D", "#88FF88", "#002200"]
+
+Image Style:
+
+Features: "Vintage CRT monitor hardware, cascading matrix-style code rain, command-line interface, pixelated digital artifacts."
+
+Texture: "Heavy scanlines, phosphor bloom, grain, screen curvature distortion, chromatic aberration."
+
+Composition: "Centered focal point on the monitor screen, immersive slight perspective, claustrophobic framing focused on the digital readout."
+
+Lighting: "Low-key ambient darkness, primary illumination via screen emission (green phosphor glow), volumetric lighting effects from the screen."
+
+Screen Effect: "CRT blooming and interlacing lines"
+
+Atmosphere: "Dark, subterranean hacker den"
+
+Typography:
+
+Heading: "Monospace Pixelated (e.g., VT323, Fixedsys)"
+
+Body: "Monospace Terminal Font"
+
+Font Weights: "Regular, Bold for commands"
+
+Character Set: "Alphanumeric mixed with Katakana/Kanji"
+
+Categories:
+
+Tags: ["Cyberpunk", "Retro-Futurism", "Hacker Aesthetic", "CRT", "Glitch"]

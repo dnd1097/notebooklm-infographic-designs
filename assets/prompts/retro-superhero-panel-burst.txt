@@ -1,0 +1,39 @@
+Overall Design Settings:
+
+Tone: "Energetic, satirical, action-oriented, and retro-cinematic"
+
+Visual Identity:
+
+Background Color: "#F9F7E8"
+
+Text Color: "#050505"
+
+Accent Color: "#FCEE21"
+
+Secondary Colors: ["#E62E2D", "#2A5CAA", "#D4A578", "#5C4535"]
+
+Image Style:
+
+Features: "Sequential narrative panels, speech bubbles, jagged explosion bursts, heavy black contour lines, exaggerated superhero anatomy"
+
+Texture: "Vintage newsprint grain, ink bleed simulation, flat color filling without gradients"
+
+Composition: "Dense multi-panel grid with a dominant title header, interspersed with dynamic action poses overlapping panel borders"
+
+Lighting: "Flat illustrative lighting with solid black heavy shadowing (ink chiaroscuro)"
+
+Line Work: "Thick, expressive ink contours with varying weights"
+
+Visual FX: "Onomatopoeic sound effects (BUM!, PRASK!) in jagged starbursts"
+
+Typography:
+
+Heading: "Hand-Drawn Block Display"
+
+Body Font: "Uppercase Hand-Lettered Comic Script"
+
+Style: "Distressed, bold, irregular alignment within speech balloons"
+
+Categories:
+
+Tags: ["Pop Art", "Vintage Comic", "Retro", "Sequential Art", "Action"]

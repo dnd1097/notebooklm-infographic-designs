@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Mythological, Didactic, Authoritative, Historical, Dramatic"
+
+Visual Identity:
+
+Background Color: "#F0E3CE"
+
+Text Color: "#0D0D15"
+
+Accent Color: "#E85D35"
+
+Secondary Colors: ["#223A70", "#75D6EA", "#BF3A3A", "#E6B658"]
+
+Image Style:
+
+Features: "Traditional woodblock aesthetics, bold brush outlines, Great Wave motifs, comic-strip paneling, kaiju imagery"
+
+Texture: "Aged washi paper grain, distressed ink edges, matte finish"
+
+Composition: "Structured triptych layout with a dominant central figure flanked by vertical instructional columns and a heavy top header"
+
+Lighting: "Flat illustration lighting, high contrast color blocking, lack of photorealistic gradients"
+
+Line Art: "Variable width brush strokes simulating ink"
+
+Art Period: "Edo Period Revival / Modern Manga Fusion"
+
+Visual Metaphor: "Monstrous challenge vs. disciplined strategy"
+
+Typography:
+
+Heading: "Heavy Edo-style Calligraphy (Kanji/Brush)"
+
+Body Font: "Legible Medium-Weight Serif"
+
+Caption Style: "Boxed text on parchment background"
+
+Orientation: "Mixed horizontal and vertical flow"
+
+Categories:
+
+Tags: ["Ukiyo-e", "Woodblock Print", "Narrative Infographic", "Retro Japanese", "High-Contrast"]

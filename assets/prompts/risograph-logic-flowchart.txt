@@ -1,0 +1,41 @@
+Overall Design Settings:
+
+Tone: "Instructional, tactile, approachable, and retro-intellectual. It conveys complex logic through a nostalgic, lo-fi print aesthetic."
+
+Visual Identity:
+
+Background Color: "#FDFBF6"
+
+Text Color: "#1C1C5E"
+
+Accent Color: "#E63E85"
+
+Secondary Colors: ["#E8AF3F", "#5C66B2", "#242D45", "#2E2C87"]
+
+Image Style:
+
+Features: "Simulated offset printing, varying opacity layers (multiply effect), speech bubble containers, iconographic metaphors (brains, gears, lightbulbs), and distinct outline misregistration."
+
+Texture: "Coarse paper grain, ink bleed, slight halftone noise, and rough 'stamp-like' stroke edges."
+
+Composition: "Flowchart logic with a top-down hierarchy. Grouped clusters of information connected by directional arrows, utilizing localized background shapes to define zones."
+
+Lighting: "Flat, uniform lighting characteristic of 2D print media, with depth implied only through color overlapping and drop shadows."
+
+Print Effect: "Misregistration/Offset Simulation"
+
+Line Quality: "Organic, marker-like thickness variation"
+
+Iconography: "Filled silhouette style with internal negative space details"
+
+Typography:
+
+Heading: "Heavy Geometric Sans-Serif (Japanese Gothic style)"
+
+Body: "Medium weight rounded sans-serif, legible at small sizes"
+
+Rendering: "Slight blur or ink-spread effect to match the analog paper texture"
+
+Categories:
+
+Tags: ["Risograph", "Retro-Educational", "Hand-Drawn UI", "Zine Aesthetic", "Infographic"]

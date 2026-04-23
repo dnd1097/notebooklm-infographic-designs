@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Urgent, Computational, Warning, Analytical, Retro-Futuristic"
+
+Visual Identity:
+
+Background Color: "#050000"
+
+Text Color: "#FF5050"
+
+Accent Color: "#FF0000"
+
+Secondary Colors: ["#800000", "#FFFFFF", "#330000"]
+
+Image Style:
+
+Features: "Digital HUD layout, glitch artifacts, horizontal interference lines, wireframe iconography, blinking cursor elements"
+
+Texture: "CRT monitor scanlines, pixel grain, screen burn-in simulation"
+
+Composition: "Grid-based compartmentalization, clear horizontal dividers, symmetrical split-screen bottom section"
+
+Lighting: "Self-illuminated phosphor glow, high-contrast neon bloom against void background"
+
+Border Style: "Double-line neon frames with corner accents"
+
+Iconography: "Schematic line art, pixel-perfect edges"
+
+Visual Noise: "Data corruption effects, horizontal shearing"
+
+Typography:
+
+Heading: "Monospaced Pixel Font (VCR OSD Mono / Console)"
+
+Body Font: "System Monospace (Courier / Consolas)"
+
+Formatting: "Uppercase dominant, terminal command syntax"
+
+Weight: "Regular with faux-bold glow effects"
+
+Categories:
+
+Tags: ["Cyberpunk", "Glitch UI", "Terminal", "Dystopian", "Data-Viz"]

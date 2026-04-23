@@ -110,6 +110,17 @@ async function listImageFiles() {
   return [];
 }
 
+async function listThumbnailFiles() {
+  try {
+    const manifest = await fetchJson('assets/images/thumbs/index.json');
+    return Array.isArray(manifest) ? manifest : [];
+  } catch (error) {
+    console.warn('Thumbnail manifest unavailable, using full images.', error);
+  }
+
+  return [];
+}
+
 async function loadPrompt(fileName) {
   const slug = fileName.replace(/\.txt$/i, '');
   const promptPath = `assets/prompts/${fileName}`;
@@ -127,8 +138,13 @@ async function loadPrompt(fileName) {
 }
 
 export async function loadStylesFromAssets() {
-  const [promptFiles, imageFiles] = await Promise.all([listPromptFiles(), listImageFiles()]);
+  const [promptFiles, imageFiles, thumbnailFiles] = await Promise.all([
+    listPromptFiles(),
+    listImageFiles(),
+    listThumbnailFiles()
+  ]);
   const imageSet = new Set(imageFiles.filter(file => file !== 'index.json'));
+  const thumbnailSet = new Set(thumbnailFiles.filter(file => file !== 'index.json'));
 
   const styleCandidates = await Promise.all(promptFiles.map(fileName => loadPrompt(fileName)));
   const styles = styleCandidates
@@ -149,7 +165,7 @@ export async function loadStylesFromAssets() {
         promptPath,
         prompt,
         summary: `${tone} infographic style.`,
-        thumbnail: `assets/images/thumbs/${slug}.svg`
+        thumbnail: thumbnailSet.has(`${slug}.svg`) ? `assets/images/thumbs/${slug}.svg` : null
       };
     });
 

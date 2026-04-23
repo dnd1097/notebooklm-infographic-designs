@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Alphonse Mucha, Nostalgic, Aristocratic, Educational, Elegant, Authoritative"
+
+Visual Identity:
+
+Background Color: "#F3EAD3"
+
+Text Color: "#3E2F26"
+
+Accent Color: "#A83E36"
+
+Secondary Colors: ["#D9B87F", "#6D8EA6", "#6E8B5E", "#8F8376"]
+
+Image Style:
+
+Features: "Hand-drawn lithograph illustrations, ornamental ribbon banners, vignette borders, fine ink hatching, historical portraiture"
+
+Texture: "Aged parchment grain, watercolor wash, ink stipple, paper fibers"
+
+Composition: "Segmented collage layout connected by decorative scrolls, distinct illustrative zones with clear separation"
+
+Lighting: "Soft diffuse daylight for scenic elements, flat graphic illumination for layout structures"
+
+Line Work: "Fine black ink with delicate cross-hatching for shading"
+
+Color Application: "Muted, desaturated watercolor washes constrained by ink outlines"
+
+Ornamentation: "A. Mucha Art Nouveau inspired corner flourishes and scrollwork banners"
+
+Typography:
+
+Heading: "Classic Victorian Serif (Heavy Weight)"
+
+Body Font: "Traditional Garamond-style Serif, slightly condensed"
+
+Styling: "All-caps for headers within ribbons, sentence case for descriptions, mixed italics for emphasis"
+
+Color Strategy: "Deep Sepia for body text, Terracotta Red for primary titles to drive hierarchy"
+
+Categories:
+
+Tags: ["Neo-Vintage", "Historical", "Belle Époque", "Lithograph", "Infographic"]

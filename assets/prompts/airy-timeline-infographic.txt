@@ -1,0 +1,39 @@
+Overall Design Settings:
+
+Tone: "Professional, Optimistic, Airy, Informative"
+
+Visual Identity:
+
+Background Color: "#F4F9FB"
+
+Text Color: "#667882"
+
+Accent Color: "#5DB6E3"
+
+Secondary Colors: ["#3B6075", "#91AAB8", "#FFFFFF"]
+
+Image Style:
+
+Features: "Flat vector iconography, curved central timeline path, simplified geometric forms, dashed guide lines"
+
+Texture: "Smooth, matte, digital vector, paper-like flatness"
+
+Composition: "Vertical scrolling timeline, alternating left-right alignment, central spine flow, ample whitespace"
+
+Lighting: "Uniform flat lighting, shadowless, high-key luminosity"
+
+Iconography: "Two-tone flat vector icons (Sky Blue and Dark Slate)"
+
+Flow: "S-Curve central axis guiding the eye downwards"
+
+Typography:
+
+Heading: "Tall Condensed Sans-Serif (e.g., Bebas Neue or Oswald)"
+
+Body Font: "Clean Geometric Sans-Serif (e.g., Open Sans or Roboto)"
+
+Date Styling: "Bold, Accent Color, Sans-Serif"
+
+Categories:
+
+Tags: ["Infographic", "Minimalist", "Clean Tech", "Flat Design", "Futuristic"]
