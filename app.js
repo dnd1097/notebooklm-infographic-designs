@@ -2,6 +2,7 @@ import { loadStylesFromAssets } from './asset-loader.js';
 
 const grid = document.getElementById('grid');
 const filters = document.getElementById('filters');
+const categories = document.getElementById('categories');
 const search = document.getElementById('search');
 const stats = document.getElementById('stats');
 const refreshButton = document.getElementById('reloadLibrary');
@@ -25,10 +26,11 @@ function renderStats() {
 }
 
 function renderFilters() {
+  categories.innerHTML = '';
   filters.innerHTML = '';
 
   const categoryWrap = document.createElement('div');
-  categoryWrap.className = 'filter-row';
+  categoryWrap.className = 'filter-row category-row';
   getCategories().forEach(cat => {
     const btn = document.createElement('button');
     btn.className = `chip ${activeCategory === cat ? 'active' : ''}`;
@@ -40,13 +42,14 @@ function renderFilters() {
     };
     categoryWrap.appendChild(btn);
   });
+  categories.appendChild(categoryWrap);
 
   const tagWrap = document.createElement('div');
-  tagWrap.className = 'filter-row';
+  tagWrap.className = 'tag-list';
   getTags().forEach(tag => {
     const btn = document.createElement('button');
-    btn.className = `chip ${activeTag === tag ? 'active' : ''}`;
-    btn.innerText = `#${tag}`;
+    btn.className = `chip tag-chip ${activeTag === tag ? 'active' : ''}`;
+    btn.innerText = tag === 'All' ? 'All Tags' : `#${tag}`;
     btn.onclick = () => {
       activeTag = tag;
       renderFilters();
@@ -55,7 +58,6 @@ function renderFilters() {
     tagWrap.appendChild(btn);
   });
 
-  filters.appendChild(categoryWrap);
   filters.appendChild(tagWrap);
 }
 
@@ -69,15 +71,24 @@ function renderGrid() {
     .forEach(style => {
       const card = document.createElement('article');
       card.className = 'card';
+      const previewMarkup = style.hasRenderedPreview
+        ? `<img src="${style.image}" loading="lazy" decoding="async" fetchpriority="low" width="480" height="300" alt="${style.name}" />`
+        : `
+          <div class="card-placeholder">
+            <div class="card-placeholder-label">Prompt Available</div>
+            <h4>${style.name}</h4>
+            <p>${(style.tags || []).slice(0, 3).join(' • ') || style.category}</p>
+          </div>
+        `;
       card.innerHTML = `
         <a href="detail.html?slug=${encodeURIComponent(style.slug)}" class="card-link">
           <div class="card-image-wrap">
             <span class="badge">${style.category}</span>
-            <img src="${style.thumbnail || style.image}" data-full="${style.image}" loading="lazy" decoding="async" fetchpriority="low" width="480" height="300" alt="${style.name}" />
+            ${previewMarkup}
           </div>
           <div class="card-body">
             <h3>${style.name}</h3>
-            <p>${style.summary}${style.hasImage ? '' : ' (image pending)'}</p>
+            <p>${style.summary}${style.hasRenderedPreview ? '' : ' Preview pending.'}</p>
           </div>
         </a>
       `;

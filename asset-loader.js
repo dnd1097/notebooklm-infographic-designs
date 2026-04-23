@@ -55,6 +55,11 @@ function inferRepoContext() {
   return { owner: '', repo: '' };
 }
 
+function getFileExtension(fileName) {
+  const match = fileName.match(/\.([^.]+)$/);
+  return match ? match[1].toLowerCase() : '';
+}
+
 async function fetchJson(url) {
   const response = await fetch(url, { cache: 'no-store' });
   if (!response.ok) throw new Error(`Failed to fetch ${url}`);
@@ -153,6 +158,8 @@ export async function loadStylesFromAssets() {
       const matchedImage = IMAGE_EXTENSIONS
         .map(ext => `${slug}.${ext}`)
         .find(candidate => imageSet.has(candidate));
+      const imageExtension = matchedImage ? getFileExtension(matchedImage) : '';
+      const hasRenderedPreview = Boolean(matchedImage) && imageExtension !== 'svg';
 
       return {
         slug,
@@ -161,7 +168,8 @@ export async function loadStylesFromAssets() {
         tags,
         category: inferCategory(prompt),
         image: matchedImage ? `assets/images/${matchedImage}` : PLACEHOLDER_IMAGE,
-        hasImage: Boolean(matchedImage),
+        hasImage: hasRenderedPreview,
+        hasRenderedPreview,
         promptPath,
         prompt,
         summary: `${tone} infographic style.`,
