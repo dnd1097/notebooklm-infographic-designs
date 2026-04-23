@@ -42,21 +42,44 @@ h2 { margin: 0; font-size: 15px; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 12px;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  background: var(--surface);
+  padding: 6px;
+  border: 1px solid rgba(17, 24, 39, 0.08);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.96);
   color: var(--text);
   font-size: 14px;
+  box-shadow: 0 4px 16px rgba(17, 24, 39, 0.06);
 }
 
-.sort-control select {
+.sort-label {
+  padding-left: 8px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.sort-segmented {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 999px;
+  background: #eef2f7;
+}
+
+.sort-option {
   border: none;
   background: transparent;
-  color: inherit;
-  font: inherit;
-  outline: none;
-  cursor: pointer;
+  color: var(--muted);
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.sort-option.active {
+  background: #111827;
+  color: #fff;
+  box-shadow: 0 6px 14px rgba(17, 24, 39, 0.18);
 }
 
 #search {

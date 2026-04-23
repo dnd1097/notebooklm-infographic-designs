@@ -5,6 +5,7 @@ const filters = document.getElementById('filters');
 const categories = document.getElementById('categories');
 const search = document.getElementById('search');
 const sortOrder = document.getElementById('sortOrder');
+const sortOptions = [...document.querySelectorAll('.sort-option')];
 const stats = document.getElementById('stats');
 const refreshButton = document.getElementById('reloadLibrary');
 
@@ -20,6 +21,21 @@ function getCategories() {
 
 function getTags() {
   return ['All', ...[...new Set(styles.flatMap(style => style.tags || []))].sort((a, b) => a.localeCompare(b))];
+}
+
+function colorSortValue(backgroundColor) {
+  if (!backgroundColor) return Number.MAX_SAFE_INTEGER;
+  const normalized = backgroundColor.replace('#', '').trim();
+  const parsed = Number.parseInt(normalized, 16);
+  return Number.isNaN(parsed) ? Number.MAX_SAFE_INTEGER : parsed;
+}
+
+function updateSortControls() {
+  sortOptions.forEach(option => {
+    const isActive = option.dataset.sort === activeSort;
+    option.classList.toggle('active', isActive);
+    option.setAttribute('aria-selected', String(isActive));
+  });
 }
 
 function renderStats() {
@@ -72,10 +88,10 @@ function renderGrid() {
     .filter(style => style.name.toLowerCase().includes(activeQuery))
     .sort((a, b) => {
       if (activeSort === 'backgroundColor') {
-        const colorA = a.backgroundColor || 'zzzzzz';
-        const colorB = b.backgroundColor || 'zzzzzz';
-        const colorCompare = colorA.localeCompare(colorB);
-        if (colorCompare !== 0) return colorCompare;
+        const colorCompare = colorSortValue(a.backgroundColor) - colorSortValue(b.backgroundColor);
+        if (colorCompare !== 0) {
+          return colorCompare;
+        }
       }
 
       return a.name.localeCompare(b.name);
@@ -117,6 +133,7 @@ async function initializeLibrary() {
   try {
     styles = await loadStylesFromAssets();
     renderStats();
+    updateSortControls();
     renderFilters();
     renderGrid();
   } catch (error) {
@@ -133,8 +150,12 @@ search.addEventListener('input', event => {
   renderGrid();
 });
 
-sortOrder.addEventListener('change', event => {
-  activeSort = event.target.value;
+sortOrder.addEventListener('click', event => {
+  const button = event.target.closest('.sort-option');
+  if (!button) return;
+
+  activeSort = button.dataset.sort;
+  updateSortControls();
   renderGrid();
 });
 
