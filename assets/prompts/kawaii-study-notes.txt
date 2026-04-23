@@ -1,0 +1,41 @@
+Overall Design Settings:
+
+Tone: "Playful, personal, educational, and approachable"
+
+Visual Identity:
+
+Background Color: "#F4F2E9"
+
+Text Color: "#2B2B2B"
+
+Accent Color: "#6FA3D2"
+
+Secondary Colors: ["#FF9EC6", "#F2E66B", "#8D6E54", "#A8A8A8"]
+
+Image Style:
+
+Features: "Hand-drawn illustrations, doodles, notebook aesthetic, character mascots"
+
+Texture: "Matte paper grain, felt-tip pen ink, highlighter marker transparency"
+
+Composition: "Organic compartmentalized layout, mixing text blocks with illustrative vignettes"
+
+Lighting: "Flat, ambient scanning light with no dramatic shadows"
+
+Line Art: "Consistent monoline ink strokes with rounded terminals"
+
+Illustrations: "Simplified stick-figure-adjacent characters with expressive faces"
+
+Decorations: "Hearts, stars, sparkles, and arrows scattered for visual flow"
+
+Typography:
+
+Heading: "Hand-lettered bubble fonts with diagonal hatching fill and outlines"
+
+Body Text: "Neat, legible hand-printed Japanese script (sans-serif style)"
+
+Emphasis: "Background highlighting in pastel pink and yellow"
+
+Categories:
+
+Tags: ["Hand-drawn", "Educational", "Studygram", "Kawaii", "Journaling"]

@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Informative, Structured, Friendly, Clear, Professional"
+
+Visual Identity:
+
+Background Color: "#FFFFFF"
+
+Text Color: "#333333"
+
+Accent Color: "#005E7F"
+
+Secondary Colors: ["#D91A8C", "#E61E25", "#E88817", "#58B062", "#009DDC"]
+
+Image Style:
+
+Features: "Central radial diagram (donut chart style), flat vector iconography, dotted connector lines, numbered list integration, thick framing border."
+
+Texture: "Smooth, digital vector, matte finish, clean crisp edges."
+
+Composition: "Centrally balanced radial layout surrounded by explanatory text blocks. Symmetrical visual weight with clear directional flow."
+
+Lighting: "Flat illumination, uniform brightness, high contrast without shadows."
+
+Iconography: "Minimalist white glyphs inside colored circular containers."
+
+Connectors: "Dotted guide lines linking central visual segments to peripheral text."
+
+Framing: "Solid colored border encompassing the entire canvas."
+
+Typography:
+
+Heading: "Serif, Bold, Traditional (e.g., Merriweather or Playfair Display)"
+
+Body Font: "Sans-Serif, Geometric, Legible (e.g., Roboto or Open Sans)"
+
+Numbering: "White sans-serif numerals inside solid colored circles."
+
+Hierarchy: "Clear distinction between Serif Main Title, Sans-Serif Subtitles, and Body Text."
+
+Categories:
+
+Tags: ["Infographic", "Educational", "Flat Vector", "Radial Layout", "Clean"]

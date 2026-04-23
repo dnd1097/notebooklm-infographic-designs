@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Approachable, Informative, Structured, Professional"
+
+Visual Identity:
+
+Background Color: "#FFFFFF"
+
+Text Color: "#333333"
+
+Accent Color: "#5DADE2"
+
+Secondary Colors: ["#E74C3C", "#F5B041", "#34495E", "#1DA1F2", "#ECF0F1"]
+
+Image Style:
+
+Features: "Flat vector illustrations, thick outlines, icon-based storytelling, numbered list format, central character anchors"
+
+Texture: "Smooth, digital vector, matte finish, clean lines"
+
+Composition: "Vertical scrolling layout with alternating left-right text/icon placement (zig-zag flow), segmented by color blocks"
+
+Lighting: "Uniform flat lighting, no gradients, minimal drop shadows for depth"
+
+Character Style: "Stylized flat humans with large heads, simple facial features, and professional attire"
+
+Iconography: "Thick dark stroked icons with flat color fills representing concepts"
+
+Layout Structure: "Alternating background bands (White and Light Blue) to separate list items"
+
+Typography:
+
+Heading: "Condensed Bold Sans-Serif"
+
+Subtitle Font: "Italicized Sans-Serif or Casual Script"
+
+Body Font: "Clean, highly legible Sans-Serif (e.g., Open Sans or Roboto)"
+
+Callout Font: "Handwritten script style for 'What this means' sections"
+
+Categories:
+
+Tags: ["Infographic", "Flat Design", "Vector Illustration", "Business", "Educational"]

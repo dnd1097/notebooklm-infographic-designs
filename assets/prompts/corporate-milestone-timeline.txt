@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Professional, authoritative, informative, and structured with a clean, high-contrast corporate aesthetic."
+
+Visual Identity:
+
+Background Color: "#FFFFFF"
+
+Text Color: "#333333"
+
+Accent Color: "#2E3B8F"
+
+Secondary Colors: ["#FBAF18", "#EC1C5F", "#00AEEF", "#6556DF"]
+
+Image Style:
+
+Features: "Flat vector iconography, horizontal timeline structure, geometric data modules, color-coded categorization."
+
+Texture: "Smooth, matte digital finish with zero grain or noise."
+
+Composition: "Hierarchical grid system: Title header, central linear timeline, and tripartite footer for statistical data."
+
+Lighting: "Flat, evenly distributed 2D illumination; devoid of drop shadows or gradients."
+
+Iconography: "Circular, color-blocked containers holding simplified glyphs."
+
+Lines: "Thin, solid black connectors for timeline progression."
+
+Shapes: "Rounded rectangles for labels and perfect circles for milestones."
+
+Typography:
+
+Heading: "Sans-Serif Bold (Geometric)"
+
+Body Font: "Clean Sans-Serif (e.g., Roboto, Helvetica) for maximum readability."
+
+Weights: "Heavy usage of Bold for headers and years; Regular for descriptive text."
+
+Formatting: "Uppercase for section labels; sentence case for descriptions."
+
+Categories:
+
+Tags: ["Infographic", "Corporate", "Timeline", "Flat Design", "Data Visualization"]

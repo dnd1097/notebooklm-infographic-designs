@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Futuristic, analytical, sophisticated, and instructional with a high-tech aesthetic."
+
+Visual Identity:
+
+Background Color: "#080a12"
+
+Text Color: "#ffffff"
+
+Accent Color: "#00c4fa"
+
+Secondary Colors: ["#9d4edd", "#1f253a", "#4a536b", "#2d3446"]
+
+Image Style:
+
+Features: "Glowing borders, rounded rectangular containers, directional flow arrows, schematic icons (brain, code, charts), and faint circuit-board background patterns."
+
+Texture: "Smooth digital matte with luminescent neon edges and semi-transparent 'glassmorphic' container fills."
+
+Composition: "Structured logical flowchart arranged hierarchically from top to bottom and left to right, utilizing containment zones to group related concepts."
+
+Lighting: "Dark ambient environment illuminated by self-emitting neon strokes (cyan and purple) creating high contrast against the void-like background."
+
+Border Style: "Rounded corners with outer glow"
+
+Background Pattern: "Subtle abstract circuit lines"
+
+Iconography: "Line art with gradient fills"
+
+Typography:
+
+Heading: "Modern Sans-Serif (Bold/Heavy)"
+
+Body Text: "Clean Sans-Serif (Regular)"
+
+Readability: "High contrast white on dark"
+
+Alignment: "Centered headings, left-aligned body"
+
+Categories:
+
+Tags: ["Cyberpunk", "Dark Mode", "Tech-Infographic", "Neon-Glow", "Process-Flow"]

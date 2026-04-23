@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Professional, Structured, Instructional, Clear, Organizational"
+
+Visual Identity:
+
+Background Color: "#FFFFFF"
+
+Text Color: "#333333"
+
+Accent Color: "#008B8B"
+
+Secondary Colors: ["#8E44AD", "#2E4053", "#27AE60", "#F1C40F", "#C0392B"]
+
+Image Style:
+
+Features: "Semi-circular timeline, Segmented process arc, Flat vector iconography, Numbered milestones, Directional arrows"
+
+Texture: "Flat, Smooth, Vector-clean, Matte finish"
+
+Composition: "Radial symmetry, Centered arch, Radiating text clusters, Step-by-step flow visualization"
+
+Lighting: "Flat illustration style, Uniform illumination, No gradients or drop shadows"
+
+Iconography: "White simple glyphs inside colored segments"
+
+Connectors: "Thin colored directional lines connecting segments to text blocks"
+
+Central Element: "Human-centric silhouette icon illustrating care or support"
+
+Typography:
+
+Heading: "Modern Sans-Serif (e.g., Lato, Roboto), Bold Weight"
+
+Body: "Clean Sans-Serif, Regular weight for descriptions"
+
+Sub-headings: "Colored Sans-Serif matching segment color"
+
+Numerals: "White, sans-serif, centered in circular badges"
+
+Categories:
+
+Tags: ["Corporate", "Infographic", "Process Flow", "Clean Design", "Radial Layout"]

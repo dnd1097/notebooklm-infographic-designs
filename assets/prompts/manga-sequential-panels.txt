@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Energetic, dramatic, educational, expressive, action-oriented"
+
+Visual Identity:
+
+Background Color: "#FFFFFF"
+
+Text Color: "#000000"
+
+Accent Color: "#FF3333"
+
+Secondary Colors: ["#E0E0E0", "#999999", "#505050"]
+
+Image Style:
+
+Features: "Manga-inspired character art, speed lines (beta flash), jagged speech bubbles, sound effect text visualization, halftone shading patterns"
+
+Texture: "Newsprint/Manga paper feel, dot screen shading, ink brush strokes"
+
+Composition: "Sequential panel layout (top-down flow), dynamic framing with characters breaking frame boundaries, high-density information clustering"
+
+Lighting: "High-contrast ink rendering, dramatic shading using cross-hatching and screentones, glowing energy effects"
+
+Line Work: "Variable width ink nib style, sharp and expressive"
+
+Shading Technique: "Halftone dots and linear hatching"
+
+Visual Effects: "Speed lines, starbursts, and impact flashes"
+
+Typography:
+
+Heading: "Heavy Impact Gothic / Manga Sound Effect Style"
+
+Body Font: "Clean Sans-Serif (Legible inside speech bubbles)"
+
+Text Styling: "White outer glow or stroke for contrast against busy backgrounds"
+
+Emphasis: "Variable sizing and jagged edges for shouted or emphasized words"
+
+Categories:
+
+Tags: ["Manga Style", "Comic Strip", "Instructional", "Monochrome", "Dynamic Action"]

@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Energetic, Structural, Innovative, Modern, Educational"
+
+Visual Identity:
+
+Background Color: "#F8F9FB"
+
+Text Color: "#0A0A0A"
+
+Accent Color: "#FF4E20"
+
+Secondary Colors: ["#2979FF", "#1565C0", "#FF8A65", "#90CAF9"]
+
+Image Style:
+
+Features: "Abstract geometric primitives, flow arrows, modular grid blocks, fluid waves, iconographic metaphors (gears, blocks)"
+
+Texture: "Stipple grain, noise overlay, risograph print texture, flat colors with textured gradients"
+
+Composition: "Dynamic flow from top-left to bottom-right, asymmetrical balance, integrated text paths"
+
+Lighting: "Flat illumination, depth created through layering and texture rather than realistic shadows"
+
+Art Technique: "Vector illustration with heavy grain/noise overlay"
+
+Shape Language: "Contrast between organic fluid curves and rigid geometric blocks"
+
+Visual Metaphor: "Construction, modularity, and rapid data flow"
+
+Typography:
+
+Heading: "Heavy Sans-Serif (Japanese/English hybrid)"
+
+Body Font: "Medium Sans-Serif, clean and geometric"
+
+Arrangement: "Text following curved paths, labels inside capsule shapes"
+
+Weights: "ExtraBold (Headings), Medium (Labels)"
+
+Categories:
+
+Tags: ["Tech-Illustration", "Risograph", "Geometric", "Vibrant", "Abstract"]
