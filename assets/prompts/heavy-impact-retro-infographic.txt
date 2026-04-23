@@ -1,0 +1,21 @@
+Overall Design Settings:
+
+Tone: "Energetic, Nostalgic, Instructional, Playful, Bold"
+
+Visual Identity:
+
+Background Color: "#9ED9CC"
+
+Text Color: "#111111"
+
+Accent Color: "#E84E45"
+
+Image Style:
+
+Features: "Split-screen layout, comic illustrations, speech bubbles, chrome arrows"
+
+Texture: "Halftone patterns"
+
+Composition: "Bilateral symmetry"
+
+Lighting: "Flat illustrative lighting"

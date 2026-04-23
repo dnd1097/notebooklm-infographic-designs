@@ -1,0 +1,19 @@
+Overall Tone: Precision-engineered, technical, authoritative, and structured.
+
+Colors: Background #0F3B2C, Text #EAD0AC, Accent #D98C53
+
+Image Style: Printed circuit board (PCB) aesthetic, connecting copper traces, solder pads, integrated circuit (IC) chip outlines, and component nodes.
+
+Texture: Matte FR-4 epoxy glass substrate simulation, flat vector illustration, clean line art without noise.
+
+Composition: Network-based layout with a central core component connected to peripheral data clusters via grid-aligned paths (traces).
+
+Lighting: Flat, uniform schematic lighting; reliance on color contrast rather than shadows to define depth.
+
+Typography Style: Industrial Monospace or DIN Condensed, Uppercase
+
+Categories: Engineering, Tech-Industrial, Data Visualization, Schematic, Retro-Futurism
+
+Instruction: Create a high-fidelity infographic matching the visual DNA of "PCB Schematic Architecture".
+
+Reference extracted metadata for exact aesthetic and structural adherence.

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Infographic preview unavailable">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3f4f6"/>
+      <stop offset="100%" stop-color="#e5e7eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#g)"/>
+  <rect x="160" y="120" width="880" height="510" rx="24" fill="#ffffff" stroke="#d1d5db" stroke-width="4"/>
+  <text x="600" y="350" text-anchor="middle" fill="#374151" font-size="40" font-family="Arial, sans-serif">Preview image unavailable</text>
+  <text x="600" y="400" text-anchor="middle" fill="#6b7280" font-size="28" font-family="Arial, sans-serif">Prompt content is still available below</text>
+</svg>

@@ -1,0 +1,33 @@
+Overall Design Settings:
+
+Tone: "Tactile, instructional, durable, handcrafted, professional"
+
+Visual Identity:
+
+Background Color: "#223C63"
+
+Text Color: "#FFFFFF"
+
+Accent Color: "#DCB35C"
+
+Secondary Colors: ["#A83232", "#4D6D91", "#8E5C3E", "#B0B0B0"]
+
+Image Style:
+
+Features: "Realistic denim fabric background, embroidered text effects, patch-style diagrams, copper rivets, frayed edges"
+
+Texture: "Heavy cotton canvas weave, metallic hardness, raised thread relief, soft felt patches"
+
+Composition: "Vertical stack divided by stitched dashed lines, modular compartments for information flow"
+
+Lighting: "Soft top-down ambient light creating subtle drop shadows under patches and embossing on text"
+
+Typography:
+
+Heading: "Bold Sans-Serif with Embroidered Relief"
+
+Body Font: "Rounded Sans-Serif"
+
+Categories:
+
+Tags: ["Skeuomorphic", "Textured", "Craft", "Denim", "Industrial"]

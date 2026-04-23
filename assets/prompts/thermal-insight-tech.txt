@@ -1,0 +1,19 @@
+Overall Tone: Analytical, Authoritative, Futuristic, Industrial
+
+Colors: Background #050B26, Text #FFFFFF, Accent #FFC800
+
+Image Style: Thermal heat map spectrums (blue to red), technical HUD overlays, wireframe crosshairs, framed inset screenshots
+
+Texture: Digital smooth, luminous neon gradients, clean vector lines
+
+Composition: Central hero product with radial focus, flanked by symmetrical feature grids in two columns
+
+Lighting: Emissive bio-luminescent glow, high contrast neon against dark void, simulated infrared radiation
+
+Typography Style: Bold Sans-Serif Condensed Uppercase
+
+Categories: High-Tech, Surveillance, Infographic, Thermal Imaging, Cyber
+
+Instruction: Create a high-fidelity infographic matching the visual DNA of "Thermal Insight Tech".
+
+Reference extracted metadata for exact aesthetic and structural adherence.

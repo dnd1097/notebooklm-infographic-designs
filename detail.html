@@ -2,50 +2,29 @@
 <html>
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Style Detail</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a href="index.html">← Back to Library</a>
+  <a href="index.html" class="back-link">← Back to Library</a>
   <div id="content"></div>
 
   <div id="zoomModal" class="zoom-modal">
-    <button class="zoom-close" onclick="closeZoom()">×</button>
-    <img id="zoomImg" src="" />
+    <button class="zoom-close" id="zoomClose">×</button>
+    <img id="zoomImg" src="" alt="Zoomed infographic" />
   </div>
 
-  <script src="data.js"></script>
-  <script src="user_styles.js"></script>
-  <script>
+  <script type="module">
+    import { loadStylesFromAssets } from './asset-loader.js';
+
     const params = new URLSearchParams(window.location.search);
     const slug = params.get('slug');
-    const style = styles.find(s => s.slug === slug);
-
-    const el = document.getElementById('content');
-
-    if (style) {
-      el.innerHTML = `
-        <h1>${style.name}</h1>
-        <img src="${style.image}" class="detail-image" onclick="openZoom('${style.image}')" />
-        <div class="zoom-hint">Click image to zoom</div>
-        <p><b>Category:</b> ${style.category}</p>
-        <p>${style.summary}</p>
-        <h3>Original Prompt</h3>
-        <pre class="prompt">${style.prompt}</pre>
-        <button onclick="copyPrompt()">Copy Prompt</button>
-        <p><a href="${style.source}" target="_blank">View Source Thread</a></p>
-      `;
-    }
-
-    function copyPrompt() {
-      navigator.clipboard.writeText(style.prompt);
-      alert('Prompt copied');
-    }
+    const content = document.getElementById('content');
 
     function openZoom(src) {
       const modal = document.getElementById('zoomModal');
-      const img = document.getElementById('zoomImg');
-      img.src = src;
+      document.getElementById('zoomImg').src = src;
       modal.classList.add('open');
     }
 
@@ -53,13 +32,95 @@
       document.getElementById('zoomModal').classList.remove('open');
     }
 
-    document.getElementById('zoomModal').addEventListener('click', function(e) {
-      if (e.target === this) closeZoom();
+    document.getElementById('zoomClose').addEventListener('click', closeZoom);
+    document.getElementById('zoomModal').addEventListener('click', event => {
+      if (event.target.id === 'zoomModal') closeZoom();
     });
 
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') closeZoom();
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') closeZoom();
     });
+
+    async function renderDetail() {
+      const styles = await loadStylesFromAssets();
+      let style = styles.find(item => item.slug === slug);
+
+      if (!style && slug) {
+        try {
+          const promptPath = `assets/prompts/${slug}.txt`;
+          const response = await fetch(promptPath, { cache: 'no-store' });
+          if (response.ok) {
+            const prompt = await response.text();
+            style = {
+              slug,
+              name: slug.split('-').map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(' '),
+              category: 'General',
+              image: 'assets/images/placeholder.svg',
+              hasImage: false,
+              prompt
+            };
+          }
+        } catch (error) {
+          console.error(error);
+        }
+      }
+
+      if (!style) {
+        content.innerHTML = '<p>Style not found. Please check the slug and prompt file.</p>';
+        return;
+      }
+
+      const article = document.createElement('article');
+      article.className = 'detail-card';
+
+      const heading = document.createElement('h1');
+      heading.textContent = style.name;
+      article.appendChild(heading);
+
+      const image = document.createElement('img');
+      image.src = style.image;
+      image.className = 'detail-image';
+      image.alt = style.name;
+      image.addEventListener('click', () => openZoom(style.image));
+      article.appendChild(image);
+
+      const hint = document.createElement('div');
+      hint.className = 'zoom-hint';
+      hint.textContent = 'Click image to zoom';
+      article.appendChild(hint);
+
+      const meta = document.createElement('p');
+      meta.innerHTML = `<b>Category:</b> ${style.category}`;
+      article.appendChild(meta);
+
+      if (!style.hasImage) {
+        const notice = document.createElement('p');
+        notice.className = 'image-pending';
+        notice.textContent = 'Image not found in assets/images yet. Prompt is available and copyable.';
+        article.appendChild(notice);
+      }
+
+      const promptHeading = document.createElement('h3');
+      promptHeading.textContent = 'Original Prompt';
+      article.appendChild(promptHeading);
+
+      const promptEl = document.createElement('pre');
+      promptEl.className = 'prompt';
+      promptEl.textContent = style.prompt;
+      article.appendChild(promptEl);
+
+      const copyButton = document.createElement('button');
+      copyButton.textContent = 'Copy Prompt';
+      copyButton.addEventListener('click', async () => {
+        await navigator.clipboard.writeText(style.prompt);
+        alert('Prompt copied');
+      });
+      article.appendChild(copyButton);
+
+      content.replaceChildren(article);
+    }
+
+    renderDetail();
   </script>
 </body>
 </html>

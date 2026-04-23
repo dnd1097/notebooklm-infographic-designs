@@ -1,0 +1,19 @@
+Overall Tone: Professional, informative, structured, and sleek with a focus on technical clarity and modern security.
+
+Colors: Background #F4F6F8, Text #2C2C2C, Accent #EB5757
+
+Image Style: Centralized hub-and-spoke layout, gradient flow lines, soft circular containers for icons, clean vector iconography.
+
+Texture: Smooth matte digital surface with subtle soft shadows for depth perception.
+
+Composition: Bilateral symmetry with a central focal point; branching curved connectors leading to balanced text blocks on left and right margins.
+
+Lighting: Soft, diffuse ambient lighting creating gentle drop shadows (neumorphic effect) to lift key elements off the background.
+
+Typography Style: Condensed Sans-Serif (e.g., Roboto Condensed or Oswald), Uppercase, Bold
+
+Categories: Corporate Tech, Neumorphism, Data Visualization, Clean Minimalist, Symmetrical
+
+Instruction: Create a high-fidelity infographic matching the visual DNA of "Neumorphic Tech Schematic".
+
+Reference extracted metadata for exact aesthetic and structural adherence.
