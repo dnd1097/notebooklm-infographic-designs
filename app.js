@@ -73,7 +73,7 @@ function renderGrid() {
         <a href="detail.html?slug=${encodeURIComponent(style.slug)}" class="card-link">
           <div class="card-image-wrap">
             <span class="badge">${style.category}</span>
-            <img src="${style.image}" loading="lazy" alt="${style.name}" />
+            <img src="${style.thumbnail || style.image}" data-full="${style.image}" loading="lazy" decoding="async" fetchpriority="low" width="480" height="300" alt="${style.name}" />
           </div>
           <div class="card-body">
             <h3>${style.name}</h3>

@@ -148,7 +148,8 @@ export async function loadStylesFromAssets() {
         hasImage: Boolean(matchedImage),
         promptPath,
         prompt,
-        summary: `${tone} infographic style.`
+        summary: `${tone} infographic style.`,
+        thumbnail: `assets/images/thumbs/${slug}.svg`
       };
     });
 
