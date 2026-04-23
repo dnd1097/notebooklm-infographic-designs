@@ -8,6 +8,13 @@ const STYLE_OVERRIDES = {
   'analytical-grid-report': {
     name: 'Architecture Blueprint Split-screen',
     imageSlug: 'architectural-blueprint-infographic'
+  },
+  'retro-diner-split-screen': {
+    allowSvgPreview: true
+  },
+  'psychedelic-flower-power': {
+    name: 'Chunky bubble-style Radiating',
+    imageSlug: 'chunky-bubble-style-radiating'
   }
 };
 
@@ -171,7 +178,7 @@ export async function loadStylesFromAssets() {
         .map(ext => `${imageLookupSlug}.${ext}`)
         .find(candidate => imageSet.has(candidate));
       const imageExtension = matchedImage ? getFileExtension(matchedImage) : '';
-      const hasRenderedPreview = Boolean(matchedImage) && imageExtension !== 'svg';
+      const hasRenderedPreview = Boolean(matchedImage) && (imageExtension !== 'svg' || override?.allowSvgPreview);
 
       return {
         slug,
