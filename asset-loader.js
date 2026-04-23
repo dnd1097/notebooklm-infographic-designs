@@ -1,5 +1,15 @@
 const IMAGE_EXTENSIONS = ['png', 'jpg', 'jpeg', 'webp', 'svg'];
 const PLACEHOLDER_IMAGE = 'assets/images/placeholder.svg';
+const STYLE_OVERRIDES = {
+  'notebook-study-sheet': {
+    name: 'Hand-Lettered Bold Caps (Marker Style)',
+    imageSlug: 'hand-drawn-camera-infographic'
+  },
+  'analytical-grid-report': {
+    name: 'Architecture Blueprint Split-screen',
+    imageSlug: 'architectural-blueprint-infographic'
+  }
+};
 
 function toTitleFromSlug(slug) {
   return slug
@@ -155,15 +165,17 @@ export async function loadStylesFromAssets() {
   const styles = styleCandidates
     .filter(Boolean)
     .map(({ slug, promptPath, prompt, tone, tags }) => {
+      const override = STYLE_OVERRIDES[slug];
+      const imageLookupSlug = override?.imageSlug || slug;
       const matchedImage = IMAGE_EXTENSIONS
-        .map(ext => `${slug}.${ext}`)
+        .map(ext => `${imageLookupSlug}.${ext}`)
         .find(candidate => imageSet.has(candidate));
       const imageExtension = matchedImage ? getFileExtension(matchedImage) : '';
       const hasRenderedPreview = Boolean(matchedImage) && imageExtension !== 'svg';
 
       return {
         slug,
-        name: toTitleFromSlug(slug),
+        name: override?.name || toTitleFromSlug(slug),
         tone,
         tags,
         category: inferCategory(prompt),
