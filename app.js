@@ -17,7 +17,7 @@ function getCategories() {
 }
 
 function getTags() {
-  return ['All', ...new Set(styles.flatMap(style => style.tags || []))];
+  return ['All', ...[...new Set(styles.flatMap(style => style.tags || []))].sort((a, b) => a.localeCompare(b))];
 }
 
 function renderStats() {

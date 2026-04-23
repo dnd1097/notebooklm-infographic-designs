@@ -9,6 +9,13 @@ const STYLE_OVERRIDES = {
     name: 'Architecture Blueprint Split-screen',
     imageSlug: 'architectural-blueprint-infographic'
   },
+  'heavy-impact-retro-infographic': {
+    name: 'Retro Diner Split Screen',
+    promptSlug: 'retro-diner-split-screen'
+  },
+  'retro-diner-split-screen': {
+    hidden: true
+  },
   'psychedelic-flower-power': {
     name: 'Chunky bubble-style Radiating',
     imageSlug: 'chunky-bubble-style-radiating'
@@ -47,6 +54,10 @@ function extractTags(promptText) {
   }
 
   return [];
+}
+
+function sortAlphabetically(values) {
+  return [...values].sort((a, b) => a.localeCompare(b));
 }
 
 function inferCategory(promptText) {
@@ -151,7 +162,7 @@ async function loadPrompt(fileName) {
 
   const prompt = await promptResponse.text();
   const tone = extractField(prompt, 'Tone') || extractField(prompt, 'Overall Tone') || 'General';
-  const tags = extractTags(prompt);
+  const tags = sortAlphabetically(extractTags(prompt));
 
   return { slug, promptPath, prompt, tone, tags };
 }
@@ -166,10 +177,16 @@ export async function loadStylesFromAssets() {
   const thumbnailSet = new Set(thumbnailFiles.filter(file => file !== 'index.json'));
 
   const styleCandidates = await Promise.all(promptFiles.map(fileName => loadPrompt(fileName)));
+  const styleCandidateMap = new Map(styleCandidates.filter(Boolean).map(candidate => [candidate.slug, candidate]));
   const styles = styleCandidates
     .filter(Boolean)
-    .map(({ slug, promptPath, prompt, tone, tags }) => {
+    .map(styleCandidate => {
+      const { slug } = styleCandidate;
       const override = STYLE_OVERRIDES[slug];
+      if (override?.hidden) return null;
+
+      const promptSource = override?.promptSlug ? styleCandidateMap.get(override.promptSlug) || styleCandidate : styleCandidate;
+      const { promptPath, prompt, tone, tags } = promptSource;
       const imageLookupSlug = override?.imageSlug || slug;
       const matchedImage = IMAGE_EXTENSIONS
         .map(ext => `${imageLookupSlug}.${ext}`)
@@ -191,7 +208,8 @@ export async function loadStylesFromAssets() {
         summary: `${tone} infographic style.`,
         thumbnail: thumbnailSet.has(`${slug}.svg`) ? `assets/images/thumbs/${slug}.svg` : null
       };
-    });
+    })
+    .filter(Boolean);
 
   return styles.sort((a, b) => a.name.localeCompare(b.name));
 }
