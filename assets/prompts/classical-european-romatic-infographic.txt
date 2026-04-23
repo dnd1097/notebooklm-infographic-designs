@@ -1,0 +1,33 @@
+Overall Design Settings:
+
+Tone: "Elegant, classical, educational, and museum-grade authoritative"
+
+Visual Identity:
+
+Background Color: "#F5F1E8"
+
+Text Color: "#2D241B"
+
+Accent Color: "#8C6A3E"
+
+Secondary Colors: ["#CBB89D", "#A3452D", "#E8DDC9", "#5C4630", "#B99B6B"]
+
+Image Style:
+
+Features: "Classical European ornamental framing, engraved-style iconography, decorative flourishes, parchment cards, and balanced section dividers"
+
+Texture: "Aged paper grain with subtle ink etching and soft matte print finish"
+
+Composition: "Symmetrical gallery-like layout with a central hero panel and evenly spaced explanatory callouts"
+
+Lighting: "Soft ambient lighting, flat print-friendly shading, and gentle vignette emphasis"
+
+Typography:
+
+Heading: "Classical Serif Display"
+
+Body Font: "Readable Transitional Serif"
+
+Categories:
+
+Tags: ["Classical", "European", "Decorative", "Educational", "Vintage"]
