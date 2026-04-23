@@ -1,0 +1,25 @@
+Overall Design Settings:
+Tone: "Sophisticated, Analytical, High-Tech, Visionary, Instructional"
+
+Visual Identity:
+Background Color: "#020712"
+Text Color: "#E1F5FE"
+Accent Color: "#00E5FF"
+Secondary Colors: ["#FF5252", "#2979FF", "#D1C4E9", "#18FFFF"]
+
+Image Style:
+Features: "Floating isometric screens, wireframe brain models, luminous particle streams, hexagonal data blocks, semi-transparent glass interfaces."
+Texture: "Glassy, ethereal, digital grid patterns, smooth glowing gradients, high-tech polish."
+Composition: "Dynamic flow-chart arrangement in 3D space, diagonal progression, layered depth with distinct foreground and background elements."
+Lighting: "Emissive internal glow, neon rim lighting, volumetric effects against a deep void, strong contrast."
+Effect: "Bloom and lens flare"
+Perspective: "Isometric 3D"
+Elements: "HUD components"
+
+Typography:
+Heading: "Modern Geometric Sans-Serif (e.g., Roboto, Exo 2, Noto Sans JP)"
+Body: "Clean Monospaced or Sans-Serif, Light Weight"
+Styling: "Glowing edges, uppercase headers, digital readout aesthetic"
+
+Categories:
+Tags: ["Cyberpunk", "Futuristic UI", "Data Visualization", "Holographic", "Isometric"]

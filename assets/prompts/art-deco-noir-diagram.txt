@@ -1,0 +1,26 @@
+Overall Design Settings:
+Tone: "Sophisticated, Authoritative, Opulent, Dramatic, Symbolic"
+
+Visual Identity:
+Background Color: "#050507"
+Text Color: "#F2E6CF"
+Accent Color: "#D4AF37"
+Secondary Colors: ["#8C7348", "#2B3A42", "#4A4A4A", "#FFFFF0"]
+
+Image Style:
+Features: "Intricate geometric borders, fan motifs, metallic gradients, symbolic architectural contrast (industrial vs. skyscraper), champagne tower flowchart."
+Texture: "Polished gold leaf, matte velvet background, atmospheric glow, grain-free vector precision."
+Composition: "Symmetrical tripartite layout framed by heavy ornamentation. Central metaphorical diagram (pyramid structure) anchored by flanking illustrative vignettes."
+Lighting: "Cinematic chiaroscuro, glowing gold highlights against deep shadows, simulated backlighting behind central elements."
+Border Style: "Complex Art Deco frames with corner flourishes and diamonds"
+Iconography: "Stylized, flat-shaded with metallic gradient strokes"
+Visual Metaphor: "Left: Dark Industrial Factory (Requirement); Right: Glowing Skyscraper (Evaluation)"
+
+Typography:
+Heading: "Elegant Serif (Mincho/Didot style) with high contrast strokes"
+Body: "Clean Sans-Serif for legibility within diagrams"
+Weights: "Bold headers, Medium body, Metallic gradient fill on main titles"
+Language Styling: "English dominating and French subtitles in smaller uppercase caps"
+
+Categories:
+Tags: ["Gatsby", "Art Deco", "Luxury", "Noir", "Ornamental", "Cinematic"]

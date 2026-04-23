@@ -1,0 +1,26 @@
+Overall Design Settings:
+Tone: "Educational, authoritative, structured, precise, and diagrammatic"
+
+Visual Identity:
+Background Color: "#FBFBFB"
+Text Color: "#222222"
+Accent Color: "#7FA1C3"
+Secondary Colors: ["#E6B89C", "#9CCEA6", "#CCCCCC", "#555555"]
+
+Image Style:
+Features: "Isometric 3D blocks, node-tree structures, stippled texture fills, dashed flow lines"
+Texture: "Matte textbook paper with subtle dithering or grain on filled shapes"
+Composition: "Two-column split: detailed text description on left, illustrative diagrams on right with horizontal dividers"
+Lighting: "Flat diagrammatic lighting, soft illustrative shading on 3D elements"
+Line Style: "Thin, clean, uniform width"
+Arrow Style: "Dashed curves with small triangular heads"
+Diagram Type: "Isometric component blocks and hierarchical tree nodes"
+
+Typography:
+Heading: "Bold Sans-Serif (Gothic)"
+Body Font: "Clean Sans-Serif, medium weight, optimized for legibility"
+Formatting: "Use of horizontal rules/lines to separate semantic sections"
+Emphasis: "Bold weights used for key concepts within body text"
+
+Categories:
+Tags: ["Educational", "Isometric", "Technical Schematic", "Clean UI", "Data Visualization"]

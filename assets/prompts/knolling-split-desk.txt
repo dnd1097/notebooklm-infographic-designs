@@ -1,0 +1,25 @@
+Overall Design Settings:
+
+Tone: "Organized, Instructional, Calm, Balanced, Professional"
+
+Visual Identity:
+Background Color: "#F6D0D6"
+Text Color: "#2D2D2D"
+Accent Color: "#CBE4F0"
+Secondary Colors: ["#FDF6DA", "#FFFFFF", "#9EA4A9"]
+
+Image Style:
+Features: "Photorealistic stationery items, 50/50 vertical background split, clean spatial arrangement, tech and analog mixture"
+Texture: "Matte paper stock, smooth plastic device casings, metallic ruler sheen, soft natural shadows"
+Composition: "Top-down flat lay (knolling), symmetrical balance divided by a central vertical axis, directional flow from left to right"
+Lighting: "Soft diffuse overhead lighting, producing gentle and realistic drop shadows that ground the objects"
+Object Arrangement: "Grid-like, aligned, spaced evenly"
+Visual Metaphor: "Comparison (Problem vs Solution)"
+
+Typography:
+Heading: "Modern Sans-Serif (JP Gothic style), Medium Weight"
+Body: "Clean Sans-Serif, Regular Weight, Dark Grey"
+Labeling: "Contextual, placed directly on objects (sticky notes, screens)"
+
+Categories:
+Tags: ["Knolling", "Split-Screen", "Pastel", "Flat Lay", "Minimalist"]

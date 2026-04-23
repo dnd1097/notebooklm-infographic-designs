@@ -1,0 +1,25 @@
+Overall Design Settings:
+Tone: "Technical, authoritative, nostalgic, and cryptic with a high-tech hacker ethos."
+
+Visual Identity:
+Background Color: "#050505"
+Text Color: "#2CFF56"
+Accent Color: "#FFB200"
+Secondary Colors: ["#00551A", "#FFFFFF", "#1E1E1E"]
+
+Image Style:
+Features: "ASCII ART, Pixel-art iconography, wireframe circuit traces, binary rain data streams, command-line interfaces, schematic flowcharts."
+Texture: "CRT monitor phosphor glow, scanlines, digital noise, high-contrast pixelation."
+Composition: "Modular vertical layout separated by dashed dividers, centered hero graphic (terminal/computer), distinct information zones (header, comments, diagrams)."
+Lighting: "Self-luminous neon graphic elements against a void background, mimicking screen luminescence."
+Line Work: "Single-pixel width, often dashed or dotted"
+Borders: "Bracket-style or double-line terminal frames"
+Decorations: "Hex codes, binary strings, and ASCII art elements in margins"
+
+Typography:
+Heading: "Pixelated Block Display (e.g., 'Press Start 2P' or Custom Bitmap)"
+Body Font: "Monospaced Console Typeface (e.g., 'VT323', 'Courier New', 'Fira Code')"
+Styling: "All-caps for headers, color-coded syntax highlighting for emphasis"
+
+Categories:
+Tags: ["ASCII Art", "Cyberpunk", "Retro-Computing", "Pixel Art", "Terminal UI", "Tech-Noir"]

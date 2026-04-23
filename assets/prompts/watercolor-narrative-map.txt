@@ -1,0 +1,26 @@
+Overall Design Settings:
+Tone: "Nostalgic, Educational, Whimsical, Softly Structured, Magical"
+
+Visual Identity:
+Background Color: "#FAF8F2"
+Text Color: "#2B2B2B"
+Accent Color: "#212635"
+Secondary Colors: ["#9ABF89", "#F4B98E", "#89C2D9", "#E6D7C3", "#5D8C57"]
+
+Image Style:
+Features: "Ghibli characters, Character vignettes, organic connecting paths, watercolor scenic blending, illustrative storytelling icons."
+Texture: "Soft matte finish, simulated watercolor wash, digital painting smoothness, paper grain hint."
+Composition: "Flowing snake-like narrative path top-section, dense scenic collage mid-section, distinct grid-based footer."
+Lighting: "Soft diffuse natural light, warm ambient glow, gentle gradients, no harsh shadows."
+Illustration Technique: "Digital watercolor with soft outlines"
+Framing: "Organic blobs and soft-edge fades"
+Visual Flow: "Left-to-right guided timeline with distinct thematic clusters"
+
+Typography:
+Heading: "Humanist Sans-Serif (Bold, Uppercase)"
+Body Font: "Clean Geometric Sans-Serif (Regular)"
+Caption Style: "Condensed Sans-Serif (Light/Medium)"
+Hierarchy Approach: "Size-contrast with color-coded section headers"
+
+Categories:
+Tags: ["Editorial Illustration", "Whimsical", "Infographic", "Watercolor Aesthetic", "Narrative Map"]

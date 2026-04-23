@@ -1,0 +1,27 @@
+Overall Design Settings:
+
+Tone: "Authoritative, Mythological, Instructional, Allegorical, Timeless"
+
+Visual Identity:
+Background Color: "#DCCB96"
+Text Color: "#2B2118"
+Accent Color: "#009DA0"
+Secondary Colors: ["#B55A2F", "#2B5D91", "#D4A034", "#6B8E23"]
+
+Image Style:
+Features: "Flat profile figures (frontalism), hieroglyphic borders, architectural diagrams, isometric pyramids, symbolic iconography mixed with technical labels."
+Texture: "Aged papyrus grain, rough organic edges, matte finish, stone-carved aesthetic."
+Composition: "Compartmentalized triptych layout, framed panels with ornamental borders, hierarchical scaling of figures based on importance."
+Lighting: "Flat illustration lighting, uniform illumination, lack of cast shadows, reliance on color contrast for depth."
+Line Work: "Clean, consistent dark brown outlines resembling ink on papyrus."
+Framing: "Ornate geometric borders separating distinct narrative sections."
+Symbolism: "Technical concepts (components, velocity) mapped to ancient artifacts (stone blocks, sphinxes)."
+
+Typography:
+Heading: "Stylized Serif / Faux-Cuneiform"
+Body Font: "Clean, modern sans-serif for high legibility on explanatory text."
+Font Weight: "Bold for titles, Medium for labels, Regular for captions."
+Styling: "Headings mimic chiseled stone inscriptions; labels are boxed in cartouches or banners."
+
+Categories:
+Tags: ["Ancient Egyptian", "Historical Allegory", "Retro-Futurism", "Instructional Scroll", "Flat Illustration"]

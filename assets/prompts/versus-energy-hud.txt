@@ -1,0 +1,25 @@
+Overall Design Settings:
+
+Tone: "Competitive, Dynamic, Illustrative, High-Octane"
+
+Visual Identity:
+Background Color: "#1a0f1f"
+Text Color: "#ffffff"
+Accent Color: "#ffcc00"
+Secondary Colors: ["#ff4400", "#00eaff", "#5c3a21", "#1a2b5e", "#b3b3b3"]
+
+Image Style:
+Features: "Split-screen dichotomy, character avatars, fighting game HUD elements, elemental visual effects (fire vs electricity)"
+Texture: "Cel-shaded illustration, glossy UI overlays, particle-heavy atmosphere, jagged comic book aesthetic"
+Composition: "Symmetrical 'Versus' layout with central anchor, distinct color-coded zones (warm left, cool right), dynamic diagonal energy lines"
+Lighting: "High-contrast rim lighting, emissive glows from special effects, dramatic spotlights on characters"
+UI Elements: "Health bars, jagged speech bubbles, impact bursts"
+Atmosphere: "Sparks, speed lines, lightning bolts, flames"
+
+Typography:
+Heading: "Heavy Impact Manga Style"
+Body Font: "Bold Sans-Serif (Rounded)"
+Styling: "Thick black outlines, gradient fills (gold/silver), drop shadows"
+
+Categories:
+Tags: ["Gamification", "Anime Aesthetic", "Versus Mode", "High-Energy", "Cyber vs Traditional"]

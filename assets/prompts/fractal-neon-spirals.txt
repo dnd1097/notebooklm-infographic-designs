@@ -1,0 +1,26 @@
+Overall Design Settings:
+Tone: "Futuristic, authoritative, intricate, and scientifically mesmerizing"
+
+Visual Identity:
+Background Color: "#050005"
+Text Color: "#FFFFFF"
+Accent Color: "#E040FB"
+Secondary Colors: ["#76FF03", "#9C27B0", "#F8BBD0"]
+
+Image Style:
+Features: "Complex Mandelbrot fractal spirals, recursive geometry, glowing filaments"
+Texture: "Smooth gradient flows, neon luminescence, digital precision"
+Composition: "Centralized radial balance using negative space voids to frame content"
+Lighting: "Internal bioluminescent glow against deep void black"
+Art Style: "Generative Fractal"
+Contrast: "High Dynamic Range Neon"
+Flow: "Organic Recursive Spirals"
+
+Typography:
+Heading: "Sans-Serif Condensed"
+Body Font: "Clean Minimal Sans-Serif"
+Case Style: "Uppercase Headlines, Sentence Case Body"
+Weight: "Light to Regular"
+
+Categories:
+Tags: ["Cyber-Psychedelic", "Mathematical", "Neon", "Tech-Abstract", "High-Contrast"]

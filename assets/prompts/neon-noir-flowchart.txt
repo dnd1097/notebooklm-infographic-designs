@@ -1,0 +1,26 @@
+Overall Design Settings:
+Tone: "Technological, Analytical, Urgent, Futuristic, High-Contrast"
+
+Visual Identity:
+Background Color: "#050512"
+Text Color: "#FFFFFF"
+Accent Color: "#00FFFF"
+Secondary Colors: ["#FF00FF", "#FFFF00", "#4B0082", "#0055FF"]
+
+Image Style:
+Features: "Holographic wireframes, brain and gear iconography, glowing directional arrows, code snippets, glitch artifacts, hexagonal grid overlays"
+Texture: "Digital noise, CRT scanlines, glass-like UI panels, gritty wet urban background blurred behind sharp foreground elements"
+Composition: "Centralized flowchart logic layered over a depth-filled environment; distinct interconnected nodes with floating text boxes"
+Lighting: "Luminescent neon emission against deep shadows, simulated bloom effects, back-lit screen aesthetic"
+Iconography: "Neon-outlined line art (brains, gears, funnels) with internal glow"
+UI Elements: "Semi-transparent blue-tinted panels with chamfered corners and technical borders"
+Connectors: "Jagged lightning-bolt arrows and straight glowing vectors"
+
+Typography:
+Heading: "Bold Sans-Serif (Gothic or geometric), Neon Glow Effect"
+Body: "Clean Monospaced or DIN-style Sans-Serif, White"
+Weights: "Heavy headings, Regular body text"
+Readability: "Text boxes use semi-opaque backgrounds to ensure legibility over complex textures"
+
+Categories:
+Tags: ["Cyberpunk", "Holographic UI", "Neon Noir", "Futuristic", "Data Visualization"]

@@ -1,0 +1,25 @@
+Overall Design Settings:
+Tone: "High-octane, authoritative, educational, competitive, and dynamic. Merges technical proficiency with the excitement of sports."
+
+Visual Identity:
+Background Color: "#050505"
+Text Color: "#FFFFFF"
+Accent Color: "#FF3300"
+Secondary Colors: ["#32CD32", "#00FFFF", "#FFD700", "#E60012", "#1E90FF"]
+
+Image Style:
+Features: "Dynamic motion speed lines, cel-shaded character illustrations, metaphorical iconography (gears for components, brain for logic, speedometer for performance), athletic poses."
+Texture: "Comic book halftone patterns, bold ink outlines, glossy digital gradients, 'swoosh' effects."
+Composition: "Forced perspective with diagonal flow (running track), segmented info-lanes, Z-pattern reading hierarchy from headline to specific feature breakdown."
+Lighting: "High-contrast neon backlighting, rim lighting on characters to separate from dark background, glowing energy effects."
+Line Work: "Thick, variable-width black ink outlines characteristic of manga."
+Visual Metaphors: "Abstract technical concepts translated into physical objects (e.g., Engine = Architecture)."
+Motion: "Heavy use of blur trails and directional lines to convey speed and progress."
+
+Typography:
+Heading: "Heavy / Impact (Italicized)"
+Body: "Bold Condensed Sans-Serif (white or black on colored panels)"
+Styling: "Text is often slanted to match the diagonal composition; frequent use of outlines and drop shadows for pop."
+
+Categories:
+Tags: ["Manga-Infographic", "High-Energy", "Tech-Sports Metaphor", "Comic Book Style", "Dynamic Illustration"]
