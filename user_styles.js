@@ -49,9 +49,60 @@ Categories:
 Tags: ["Hand-Drawn", "Educational", "Sketch-Note", "Visual Thinking", "Infographic"]`
 });
 
+styles.push({
+  slug: 'classical-european-romantic-infographic',
+  name: 'Classical European Romantic Infographic',
+  category: 'Artistic / Classical',
+  tags: ['rococo', 'whimsical', 'narrative infographic', 'pastel', 'romantic'],
+  image: 'assets/classical-european-romatic-infographic.png',
+  source: 'user-provided',
+  summary: 'Rococo-inspired narrative infographic with cherubs, ribbons, and soft watercolor aesthetics.',
+  prompt: `Overall Design Settings:
+
+Tone: "Elegant, dreamy, educational, soft, and whimsical with a classical European romantic influence."
+
+Visual Identity:
+
+Background Color: "#FDF6F0"
+
+Text Color: "#6B4C40"
+
+Accent Color: "#EBC97A"
+
+Secondary Colors: ["#E88CA0", "#BFE3F2", "#FADadd", "#FFFFFF", "#D96C75"]
+
+Image Style:
+
+Features: "Classical cherubs (putti), blooming roses, flowing golden ribbons acting as directional guides, seashells, pearls, and allegorical character vignettes."
+
+Texture: "Soft watercolor wash, smooth gradients, ethereal glow, matte paper finish."
+
+Composition: "S-curve narrative path connecting three distinct stages, balanced asymmetry, framed by decorative floral corners."
+
+Lighting: "Soft and diffuse ambient lighting with magical, glowing highlights emitting from key objects (mirror, book)."
+
+Line Work: "Delicate, warm-colored outlines (browns and deep pinks) rather than harsh black."
+
+Motifs: "Victorian fantasy elements: ribbons, jewels, flowers, and classical mythology references."
+
+Typography:
+
+Heading: "Elegant Serif (Mincho style)"
+
+Body: "Soft Rounded Sans-serif or clean Handwriting style"
+
+Formatting: "Gold or Rose colored headers, Dark Brown body text for warmth and readability"
+
+Categories:
+
+Tags: ["Rococo", "Whimsical", "Narrative Infographic", "Pastel", "Romantic"]`
+});
+
 if (!categories.includes('Handmade / Casual')) categories.push('Handmade / Casual');
+if (!categories.includes('Artistic / Classical')) categories.push('Artistic / Classical');
 categories.sort();
-['hand-drawn', 'educational', 'sketch-note', 'visual thinking', 'infographic'].forEach(tag => {
+
+['hand-drawn', 'educational', 'sketch-note', 'visual thinking', 'infographic','rococo','whimsical','narrative infographic','pastel','romantic'].forEach(tag => {
   if (!allTags.includes(tag)) allTags.push(tag);
 });
 allTags.sort();
