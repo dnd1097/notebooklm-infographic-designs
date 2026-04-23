@@ -2,18 +2,23 @@
 <html>
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>NotebookLM Infographic Styles</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Infographic Style Library</h1>
-  <input id="search" placeholder="Search styles..." />
+  <header class="page-header">
+    <h1>Infographic Style Library</h1>
+    <div class="header-controls">
+      <input id="search" placeholder="Search styles..." />
+      <button id="reloadLibrary">Reload Library</button>
+    </div>
+  </header>
+
   <div id="stats"></div>
   <div id="filters"></div>
   <div id="grid"></div>
 
-  <script src="data.js"></script>
-  <script src="user_styles.js"></script>
-  <script src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>

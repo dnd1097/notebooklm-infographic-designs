@@ -1,0 +1,31 @@
+Overall Design Settings:
+
+Tone: "Analytical, Precise, Pedagogical, Structured, Professional"
+
+Visual Identity:
+
+Background Color: "#F9F9F9"
+
+Text Color: "#222222"
+
+Accent Color: "#5B9BD5"
+
+Secondary Colors: ["#C0392B", "#EAF4FC", "#888888", "#FFFFFF", "#D3D3D3"]
+
+Image Style:
+
+Features: "Technical line art, dimension markers, architectural floor plan symbols, isometric diagrams, directional flow arrows"
+
+Texture: "Flat digital paper, smooth vector lines, schematic cleanliness"
+
+Composition: "Split-screen comparative layout, hierarchical vertical flow, balanced whitespace, grid-aligned diagrams"
+
+Lighting: "Flat diagrammatic lighting, consistent uniform visibility, no gradients"
+
+Line Weight: "Thin, precise strokes"
+
+Typography:
+
+Heading: "Bold Sans-Serif"
+
+Body Font: "Medium weight Sans-Serif"

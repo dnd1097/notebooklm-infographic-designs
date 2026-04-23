@@ -1,0 +1,33 @@
+Overall Design Settings:
+
+Tone: "Energetic, Nostalgic, Instructional, Playful, Bold"
+
+Visual Identity:
+
+Background Color: "#9ED9CC"
+
+Text Color: "#111111"
+
+Accent Color: "#E84E45"
+
+Secondary Colors: ["#F6C0C7", "#FFFFFF", "#B0B7BD", "#F2C865", "#5CCFE6"]
+
+Image Style:
+
+Features: "Split-screen layout (Mint/Pink), comic book character illustrations, speech bubbles, chrome arrow connectors, checkerboard borders."
+
+Texture: "Subtle halftone patterns, matte paper finish contrasting with glossy metallic rendering on UI elements."
+
+Composition: "Bilateral symmetry with a vertical chrome divider, heavy top and bottom banners, central flow diagrams."
+
+Lighting: "Flat illustrative lighting with specific specular highlights on chrome arrows and neon glow effects on signage."
+
+Typography:
+
+Heading: "Heavy Impact Retro Display with White Outline and Drop Shadow"
+
+Body Font: "Clean, legible Gothic Sans-Serif"
+
+Categories:
+
+Tags: ["Retro Pop", "American Diner", "Vintage Comic", "Split-Screen", "Americana"]

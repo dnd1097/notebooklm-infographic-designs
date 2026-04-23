@@ -1,0 +1,19 @@
+Overall Design Settings:
+
+Tone: "Playful, accessible, structured"
+
+Visual Identity:
+
+Background Color: "#E8F0FE"
+
+Text Color: "#5D4037"
+
+Accent Color: "#69F0AE"
+
+Image Style:
+
+Features: "Isometric voxel characters, floating platforms"
+
+Composition: "Diagonal progression"
+
+Lighting: "Soft ambient"
