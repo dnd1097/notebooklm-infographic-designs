@@ -98,11 +98,41 @@ Categories:
 Tags: ["Rococo", "Whimsical", "Narrative Infographic", "Pastel", "Romantic"]`
 });
 
+styles.push({
+  slug: 'industrial-workbench-schematic-infographic',
+  name: 'Industrial Workbench Schematic',
+  category: 'Technical / Industrial',
+  tags: ['industrial','skeuomorphic','engineering','hardware','tactile'],
+  image: 'assets/industrial-workbench-schematic-infographic.png',
+  source: 'user-provided',
+  summary: 'Photorealistic hardware infographic integrated with circuit schematic overlays in a workshop setting.',
+  prompt: `Overall Tone: Precision Engineering, Rugged Reliability, Technical Authority, Hardware-Focused
+
+Colors: Background #cfd3d6, Text #1f1f1f, Accent #ffc107
+
+Image Style: Photorealistic hardware components integrated with 2D schematic diagrams (PCB traces), metallic plaque substrate, workshop tools framing the scene.
+
+Texture: Brushed aluminum, scratched metal, rubber cable insulation, matte plastic, industrial grit.
+
+Composition: Central information plate screwed onto a dirty work surface, framed by disorganized tools (calipers, cables) acting as a border; internal layout uses circuit lines to guide the eye between modular sections.
+
+Lighting: Cool, diffuse overhead workshop lighting creating realistic soft drop shadows under 3D elements; subtle glowing effects on yellow LED/circuit indicators.
+
+Typography Style: DIN Condensed or Impact (Industrial Sans-Serif), Uppercase
+
+Categories: Industrial, Skeuomorphic, Engineering, Hardware, Tactile
+
+Instruction: Create a high-fidelity infographic matching the visual DNA of "Industrial Workbench Schematic".
+
+Reference extracted metadata for exact aesthetic and structural adherence.`
+});
+
 if (!categories.includes('Handmade / Casual')) categories.push('Handmade / Casual');
 if (!categories.includes('Artistic / Classical')) categories.push('Artistic / Classical');
+if (!categories.includes('Technical / Industrial')) categories.push('Technical / Industrial');
 categories.sort();
 
-['hand-drawn', 'educational', 'sketch-note', 'visual thinking', 'infographic','rococo','whimsical','narrative infographic','pastel','romantic'].forEach(tag => {
+['hand-drawn','educational','sketch-note','visual thinking','infographic','rococo','whimsical','narrative infographic','pastel','romantic','industrial','skeuomorphic','engineering','hardware','tactile'].forEach(tag => {
   if (!allTags.includes(tag)) allTags.push(tag);
 });
 allTags.sort();
