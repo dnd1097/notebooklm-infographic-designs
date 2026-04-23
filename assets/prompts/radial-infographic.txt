@@ -1,0 +1,19 @@
+Overall Design Settings:
+
+Tone: "Professional, Structured, Instructional, Clear"
+
+Visual Identity:
+
+Background Color: "#FFFFFF"
+
+Text Color: "#333333"
+
+Accent Color: "#008B8B"
+
+Image Style:
+
+Features: "Radial timeline, segmented arcs"
+
+Composition: "Circular layout"
+
+Lighting: "Flat"

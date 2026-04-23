@@ -1,0 +1,19 @@
+Overall Tone: Adventurous, Technical, Imaginative, Industrial, Authoritative
+
+Colors: Background #0d1b33, Text #2b1d0e, Accent #cd7f32
+
+Image Style: Central steampunk astronaut illustration, interlocking brass gears, copper piping connecting data points, deep space nebula background, torn parchment text containers, analog gauges.
+
+Texture: Weathered paper grain, brushed bronze metal, starry cosmic void, matte illustration finish, distressed edges.
+
+Composition: Central hero figure with radial data points connected by visual conduits (pipes/gears), utilizing a layered collage aesthetic with symmetrical balance.
+
+Lighting: Cinematic warm rim lighting on the central figure contrasting with cool ambient starlight, specular highlights on metallic surfaces, soft shadows under paper elements.
+
+Typography Style: Vintage Condensed Slab Serif (Distressed)
+
+Categories: Steampunk, Retro-Futurism, Sci-Fi, Vintage Industrial, Space
+
+Instruction: Create a high-fidelity infographic matching the visual DNA of "Steampunk Nebula Explorer".
+
+Reference extracted metadata for exact aesthetic and structural adherence.

@@ -1,0 +1,32 @@
+Overall Design Settings:
+
+Tone: "Energetic, expressive, narrative-driven, and highly instructional with a dramatic flair."
+
+Visual Identity:
+Background Color: "#FFFFFF"
+
+Text Color: "#000000"
+
+Accent Color: "#1A1A1A"
+
+Secondary Colors: ["#4D4D4D", "#808080", "#B3B3B3", "#E6E6E6", "#F2F2F2"]
+
+Image Style:
+
+Features: "Dynamic comic paneling, expressive character acting (chibi/shonen style), heavy use of speed lines (beta flash), impact bursts, and integrated process diagrams."
+
+Texture: "Traditional ink aesthetics with halftone screentones (dots) for shading, crisp varied line weights, and paper-like contrast."
+
+Composition: "Asymmetric multi-panel layout with diagonal cuts to guide eye movement, narrative progression from problem (chaos) to solution (clarity)."
+
+Lighting: "High-contrast binary lighting using black fills and white negative space, with depth created via screentone gradients and radial focus lines."
+
+Typography:
+
+Heading: "Hand-Lettered Bold Caps (Marker Style)"
+
+Body Font: "Neat, hand-printed sans-serif."
+
+Categories:
+
+Tags: ["Manga", "Process", "Instructional", "Dramatic"]

@@ -1,0 +1,19 @@
+Overall Tone: Authoritative, precise, analytical, sophisticated, engineered
+
+Colors: Background #0b1623, Text #f0f0f0, Accent #ff9f30
+
+Image Style: Exploded view wireframe, angular leader lines, drafting grid background, technical iconography
+
+Texture: Digital blueprint, vector-sharp lines, matte schematic surface
+
+Composition: Centralized exploded artifact surrounded by modular data clusters and callouts
+
+Lighting: Flat, high-contrast schematic illumination with neon-like line visibility
+
+Typography Style: Condensed Sans-Serif (e.g., DIN, Roboto Condensed)
+
+Categories: Technical, Blueprint, Schematic, Industrial Design, Infographic
+
+Instruction: Create a high-fidelity infographic matching the visual DNA of "Engineering Blueprint Schematic".
+
+Reference extracted metadata for exact aesthetic and structural adherence.

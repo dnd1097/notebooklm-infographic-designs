@@ -1,0 +1,33 @@
+Overall Design Settings:
+
+Tone: "Practical, industrial, technical, and process-focused"
+
+Visual Identity:
+
+Background Color: "#2A2F36"
+
+Text Color: "#F2F4F8"
+
+Accent Color: "#F28C28"
+
+Secondary Colors: ["#4A525E", "#6C7685", "#1E232B", "#D9DDE4", "#B14E2D"]
+
+Image Style:
+
+Features: "Workbench top-down schematic, tool silhouettes, measurement callouts, bracket labels, and assembly step markers"
+
+Texture: "Brushed metal and matte technical paper hybrid with clean vector overlays"
+
+Composition: "Central workbench canvas with modular callouts aligned to a precise grid and directional process arrows"
+
+Lighting: "Controlled studio overhead light with low-glare contrast for readability"
+
+Typography:
+
+Heading: "Industrial Condensed Sans-Serif"
+
+Body Font: "Technical Sans-Serif"
+
+Categories:
+
+Tags: ["Industrial", "Workbench", "Schematic", "Technical", "Process Flow"]
