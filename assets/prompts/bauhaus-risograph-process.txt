@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Analytical, Structural, Modern Retro, Instructional"
+
+Visual Identity:
+
+Background Color: "#F4F1E8"
+
+Text Color: "#2D2D2D"
+
+Accent Color: "#D94646"
+
+Secondary Colors: ["#2C65A6", "#F2C044"]
+
+Image Style:
+
+Features: "Overlapping geometric primitives (circles, triangles, squares), multiply blending modes creating secondary hues, directional flow with arrows, iconography."
+
+Texture: "Subtle risograph grain, matte paper finish, ink-bleed aesthetic on overlapping areas."
+
+Composition: "Diagonal dynamic layout leading from bottom-left to top-right, balanced asymmetry, modular information clusters."
+
+Lighting: "Flat illumination, depth created solely through color transparency and overlapping layers rather than shadows."
+
+Blending Mode: "Multiply effect where primary colors overlap to create darker tones"
+
+Iconography: "Thin line art sketches mixed with solid shapes"
+
+Connectors: "Thin directional arrows indicating process flow"
+
+Typography:
+
+Heading: "Bold Sans-Serif (Gothic Style)"
+
+Body Font: "Medium weight Sans-Serif, high legibility"
+
+Hierarchy: "Size-based differentiation, numbered lists for sequence"
+
+Alignment: "Left-aligned text blocks anchored to geometric elements"
+
+Categories:
+
+Tags: ["Risograph", "Bauhaus", "Infographic", "Educational", "Flat Design"]

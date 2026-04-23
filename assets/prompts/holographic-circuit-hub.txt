@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Futuristic, Analytical, Sophisticated, High-Tech, Cinematic"
+
+Visual Identity:
+
+Background Color: "#020814"
+
+Text Color: "#FFFFFF"
+
+Accent Color: "#00F0FF"
+
+Secondary Colors: ["#D600FF", "#0057FF", "#1C2E4A", "#80DEEA", "#1A1A2E"]
+
+Image Style:
+
+Features: "Isometric 3D rendered assets floating on platforms, interconnected by glowing circuit board traces. Holographic projection aesthetics with glass-like panels and digital artifacts."
+
+Texture: "Luminous neon, matte dark metal, translucent glass, smooth digital gradients, clean wireframe edges."
+
+Composition: "Centralized hub-and-spoke layout. A core element anchors the design (center chip), with connection lines leading to peripheral detailed modules. Enclosed in a technical HUD (Heads-Up Display) frame."
+
+Lighting: "Internal luminescence (glow from within), neon backlighting, soft bloom effects, sharp specular highlights on metallic edges, deep high-contrast shadows."
+
+Perspective: "Isometric 3D"
+
+Effects: "Bloom, Lens Flare, Digital Noise"
+
+Structure: "Circuit Board Trace Connectivity"
+
+Typography:
+
+Heading: "Industrial Geometric Sans-Serif (e.g., Eurostile Bold, Orbitron)"
+
+Body Font: "Clean Modern Sans-Serif (e.g., Roboto, Open Sans)"
+
+Case: "Uppercase for Headers, Sentence case for descriptions"
+
+Styling: "High contrast white text against dark backgrounds, occasional accent color highlights"
+
+Categories:
+
+Tags: ["Cyberpunk", "Sci-Fi Interface", "Isometric 3D", "Data Visualization", "Futuristic"]

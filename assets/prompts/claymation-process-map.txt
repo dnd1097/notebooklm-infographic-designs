@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Clay, Whimsical, approachable, educational, warm, and engaging."
+
+Visual Identity:
+
+Background Color: "#AEE2F6"
+
+Text Color: "#4A3B32"
+
+Accent Color: "#FF8A5B"
+
+Secondary Colors: ["#7EC466", "#FFD93D", "#E86F6F", "#F4F1EA", "#5DADE2"]
+
+Image Style:
+
+Features: "Stop-motion aesthetic, plasticine characters, button embellishments, speech bubbles, flowchart arrows."
+
+Texture: "Soft matte clay, slight surface imperfections (fingerprints), rounded organic edges, physically modeled appearance."
+
+Composition: "Sequential process map, center-weighted vignettes, connected by directional arrows, balanced spacing between story steps."
+
+Lighting: "Soft top-down global illumination, gentle drop shadows to establish ground plane, low contrast highlights mimicking studio photography."
+
+Materiality: "Modelling Clay & Plasticine"
+
+Props: "Buttons, Fabric textures, Cardboard cutouts"
+
+Perspective: "Orthographic / Slight Isometric"
+
+Typography:
+
+Heading: "Rounded Sans-Serif (Softened edges)"
+
+Style: "Hand-lettered appearance, bubble font"
+
+Weight: "Bold / Heavy"
+
+Treatment: "Embossed or cut-out paper effect"
+
+Categories:
+
+Tags: ["Claymation", "3D Illustration", "Educational", "Playful", "Tactile"]

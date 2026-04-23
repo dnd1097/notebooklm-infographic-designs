@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Innovative, Precise, Authoritative, Premium, Technological"
+
+Visual Identity:
+
+Background Color: "#FFFFFF"
+
+Text Color: "#1D1D1F"
+
+Accent Color: "#9562E3"
+
+Secondary Colors: ["#F5F5F7", "#000000", "#C6A5F1", "#6E6E73"]
+
+Image Style:
+
+Features: "Modular bento-box layout, rounded container corners (squircles), large typographic metrics, central focal product shot, minimalist iconography"
+
+Texture: "Smooth, matte, flat digital interface, zero noise"
+
+Composition: "Centralized hero visual anchored by a symmetrical grid of specification cards, uniform gutters"
+
+Lighting: "High-key, flat uniform illumination, absence of cast shadows"
+
+Border Radius: "Large rounded corners approx 20px"
+
+Gradients: "Subtle purple gradient on key metrics"
+
+Iconography: "Flat, monochrome symbols"
+
+Typography:
+
+Heading: "San Francisco Pro Display (or similar Neo-Grotesque)"
+
+Body Font: "San Francisco Pro Text"
+
+Hierarchy Style: "Massive scale contrast: Bold metrics vs small uppercase labels"
+
+Weights: "Heavy/Black for numbers, Regular/Medium for labels"
+
+Categories:
+
+Tags: ["Bento Grid", "Tech Minimalist", "Data Visualization", "Corporate Modern", "Clean UI"]

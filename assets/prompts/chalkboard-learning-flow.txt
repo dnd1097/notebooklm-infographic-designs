@@ -1,0 +1,39 @@
+Overall Design Settings:
+
+Tone: "Educational, approachable, informative, nostalgic, and structured"
+
+Visual Identity:
+
+Background Color: "#263238"
+
+Text Color: "#F5F5F5"
+
+Accent Color: "#F4D03F"
+
+Secondary Colors: ["#E74C3C", "#5DADE2", "#AF7AC5", "#D35400"]
+
+Image Style:
+
+Features: "Hand-drawn chalk illustrations, ribbon banners, doodle ornaments, schematic arrows, bordered containers"
+
+Texture: "Matte slate surface with grainy chalk dust and rough stroke edges"
+
+Composition: "Centralized vertical flow with compartmentalized information blocks using drawn borders"
+
+Lighting: "Flat illustrative lighting with high contrast against a dark substrate"
+
+Line Quality: "Organic, variable-width strokes simulating chalk pressure"
+
+Iconography: "Simplified, sketchy outlines filled with hatched shading"
+
+Typography:
+
+Heading: "Bold Handwritten Marker"
+
+Body Style: "Clean Handwritten Print"
+
+Emphasis: "Thick strokes, bright coloring (Yellow/Red), and underlining"
+
+Categories:
+
+Tags: ["Chalkboard", "Hand-drawn", "Educational", "Infographic", "Sketch"]

@@ -1,0 +1,43 @@
+Overall Design Settings:
+
+Tone: "Analytic yet playful, structured, conceptual, and instruction-oriented"
+
+Visual Identity:
+
+Background Color: "#F6F3E6"
+
+Text Color: "#00569E"
+
+Accent Color: "#DE2A2A"
+
+Secondary Colors: ["#663399", "#A6D4F2", "#2B2B2B", "#FFFFFF"]
+
+Image Style:
+
+Features: "Duotone ink simulation, misregistration effects, bold iconography, numbered sequences"
+
+Texture: "Coarse paper grain, stippled shading, ink bleed, noise overlap"
+
+Composition: "Modular grid with numbered sections, visual metaphor on left with steps on right"
+
+Lighting: "Flat illustration style with simulated overprinting shadows (multiply blending)"
+
+Shading Technique: "Halftone dots and cross-hatching"
+
+Border Style: "Rough, hand-drawn stroke look with slight offset"
+
+Iconography: "Simplified flat glyphs with texture"
+
+Typography:
+
+Heading: "Heavy Gothic Sans-Serif"
+
+Body Font: "Medium weight Sans-Serif (Legible at small sizes)"
+
+Formatting: "High contrast color-blocking for key phrases"
+
+Character Style: "Blocky, authoritative but approachable"
+
+Categories:
+
+Tags: ["Risograph", "Retro-Pop", "Educational", "Halftone", "Schematic"]

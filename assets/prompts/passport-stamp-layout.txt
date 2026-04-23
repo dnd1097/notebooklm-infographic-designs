@@ -1,0 +1,41 @@
+Overall Design Settings:
+
+Tone: "Adventurous, official, textured, inviting, bureaucratic-chic"
+
+Visual Identity:
+
+Background Color: "#F5F2E9"
+
+Text Color: "#2D2D2D"
+
+Accent Color: "#FF7F50"
+
+Secondary Colors: ["#E84A5F", "#88B085"]
+
+Image Style:
+
+Features: "Passport booklet mockup, ink stamps, visa stickers, barcode elements, gradient typography"
+
+Texture: "Matte paper grain, porous ink bleed, subtle fiber noise, worn edges"
+
+Composition: "Asymmetrical split layout with object anchor on left and typographic hierarchy on right"
+
+Lighting: "Soft flat-lay scanning light, diffuse ambient occlusion, high-key luminosity"
+
+Stamps: "Overlapping circular and rectangular ink stamps in varied colors"
+
+Gradients: "Warm orange-to-pink linear gradient on primary headline text"
+
+Typography:
+
+Heading: "Bold Geometric Sans-Serif"
+
+Body Font: "Clean Humanist Sans-Serif"
+
+Data Font: "Monospaced Typewriter/Console"
+
+Weights: "Heavy for headlines, Regular for body copy"
+
+Categories:
+
+Tags: ["Retro-Travel", "Passport-UI", "Paper-Texture", "Warm-Gradient", "Typography-Heavy"]
