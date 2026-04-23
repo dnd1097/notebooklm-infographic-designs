@@ -1,4 +1,5 @@
 const IMAGE_EXTENSIONS = ['png', 'jpg', 'jpeg', 'webp', 'svg'];
+const PLACEHOLDER_IMAGE = 'assets/images/placeholder.svg';
 
 function toTitleFromSlug(slug) {
   return slug
@@ -130,15 +131,14 @@ export async function loadStylesFromAssets() {
         .map(ext => `${slug}.${ext}`)
         .find(candidate => imageSet.has(candidate));
 
-      if (!matchedImage) return null;
-
       return {
         slug,
         name: toTitleFromSlug(slug),
         tone,
         tags,
         category: inferCategory(prompt),
-        image: `assets/images/${matchedImage}`,
+        image: matchedImage ? `assets/images/${matchedImage}` : PLACEHOLDER_IMAGE,
+        hasImage: Boolean(matchedImage),
         promptPath,
         prompt,
         summary: `${tone} infographic style.`
@@ -146,5 +146,5 @@ export async function loadStylesFromAssets() {
     })
   );
 
-  return styles.filter(Boolean).sort((a, b) => a.name.localeCompare(b.name));
+  return styles.sort((a, b) => a.name.localeCompare(b.name));
 }

@@ -128,6 +128,7 @@ button:disabled {
 .card-body { padding: 12px; }
 .card h3 { margin: 0 0 8px; font-size: 17px; }
 .card p { margin: 0; color: var(--muted); font-size: 14px; }
+.image-pending { color: #92400e; background: #fffbeb; border: 1px solid #fde68a; padding: 10px; border-radius: 8px; }
 
 .back-link { display: inline-block; margin-bottom: 14px; }
 .detail-card {

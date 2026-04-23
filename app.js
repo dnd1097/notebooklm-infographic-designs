@@ -77,7 +77,7 @@ function renderGrid() {
           </div>
           <div class="card-body">
             <h3>${style.name}</h3>
-            <p>${style.summary}</p>
+            <p>${style.summary}${style.hasImage ? '' : ' (image pending)'}</p>
           </div>
         </a>
       `;

@@ -43,10 +43,30 @@
 
     async function renderDetail() {
       const styles = await loadStylesFromAssets();
-      const style = styles.find(item => item.slug === slug);
+      let style = styles.find(item => item.slug === slug);
+
+      if (!style && slug) {
+        try {
+          const promptPath = `assets/prompts/${slug}.txt`;
+          const response = await fetch(promptPath, { cache: 'no-store' });
+          if (response.ok) {
+            const prompt = await response.text();
+            style = {
+              slug,
+              name: slug.split('-').map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(' '),
+              category: 'General',
+              image: 'assets/images/placeholder.svg',
+              hasImage: false,
+              prompt
+            };
+          }
+        } catch (error) {
+          console.error(error);
+        }
+      }
 
       if (!style) {
-        content.innerHTML = '<p>Style not found.</p>';
+        content.innerHTML = '<p>Style not found. Please check the slug and prompt file.</p>';
         return;
       }
 
@@ -72,6 +92,13 @@
       const meta = document.createElement('p');
       meta.innerHTML = `<b>Category:</b> ${style.category}`;
       article.appendChild(meta);
+
+      if (!style.hasImage) {
+        const notice = document.createElement('p');
+        notice.className = 'image-pending';
+        notice.textContent = 'Image not found in assets/images yet. Prompt is available and copyable.';
+        article.appendChild(notice);
+      }
 
       const promptHeading = document.createElement('h3');
       promptHeading.textContent = 'Original Prompt';
