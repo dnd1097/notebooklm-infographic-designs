@@ -12,6 +12,9 @@ const STYLE_OVERRIDES = {
   'architectural-blueprint-infographic': {
     hidden: true
   },
+  'radial-infographic': {
+    hidden: true
+  },
   'heavy-impact-retro-infographic': {
     name: 'Retro Diner Split Screen',
     promptSlug: 'retro-diner-split-screen'
