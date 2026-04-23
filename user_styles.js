@@ -1,138 +1,173 @@
 styles.push({
-  slug: 'hand-drawn-camera-infographic',
-  name: 'Hand-Drawn Camera Explainer',
-  category: 'Handmade / Casual',
-  tags: ['hand-drawn', 'educational', 'sketch-note', 'visual thinking', 'infographic'],
-  image: 'assets/hand-drawn-camera-infographic.png',
+  slug: 'architectural-blueprint-infographic',
+  name: 'Architectural Blueprint Infographic',
+  category: 'Technical / Blueprint',
+  tags: ['schematic','architectural','process mapping','technical','educational'],
+  image: 'assets/architectural-blueprint-infographic.png',
   source: 'user-provided',
-  summary: 'Workshop-style hand-drawn infographic using panel-based layout and visual metaphors to explain technical features.',
+  summary: 'Architectural schematic infographic with technical line diagrams.',
   prompt: `Overall Design Settings:
 
-Tone: "Educational, pragmatic, authoritative yet approachable, workshop-style, clarity-focused."
+Tone: "Analytical, Precise, Pedagogical, Structured, Professional"
 
 Visual Identity:
 
-Background Color: "#EEF1F3"
+Background Color: "#F9F9F9"
 
-Text Color: "#1B2A41"
+Text Color: "#222222"
 
-Accent Color: "#B93A2B"
+Accent Color: "#5B9BD5"
+
+Secondary Colors: ["#C0392B", "#EAF4FC", "#888888", "#FFFFFF", "#D3D3D3"]
 
 Image Style:
 
-Features: "Hand-drawn conceptual diagrams (funnels, icebergs, venn diagrams, levers), numbered panel layout, visual metaphors simplifying complex abstract concepts."
+Features: "Technical line art, dimension markers, architectural floor plan symbols, isometric diagrams, directional flow arrows"
 
-Texture: "Analog paper grain, marker stroke imperfections, slightly wobbly ink lines, hand-colored fill aesthetic."
+Texture: "Flat digital paper, smooth vector lines, schematic cleanliness"
 
-Composition: "Strict 2-column grid system divided into 8 distinct rectangular panels, high information density with clear separation boundaries."
+Composition: "Split-screen comparative layout, hierarchical vertical flow, balanced whitespace, grid-aligned diagrams"
 
-Lighting: "Flat, uniform scanning light, no dramatic shadows, emphasis on clarity and 2D diagrammatic representation."
+Lighting: "Flat diagrammatic lighting, consistent uniform visibility, no gradients"
 
-Line Weight: "Medium-thick marker lines for outlines, thinner pen lines for text."
-
-Fill Style: "Soft, pastel marker shading with slight unevenness to simulate hand-coloring."
-
-Visual Metaphors: "Prisms, funnels, levers, cycles, icebergs."
+Line Weight: "Thin, precise strokes"
 
 Typography:
 
-Heading: "Hand-Lettered Bold Caps (Marker Style)"
+Heading: "Bold Sans-Serif"
 
-Body Font: "Neat, hand-printed sans-serif."
-
-Hierarchy Approach: "Red marker for titles/headers, Blue/Black ink for body text and prompts."
-
-Emphasis: "Underlining and boxing used for key terms."
-
-Categories:
-
-Tags: ["Hand-Drawn", "Educational", "Sketch-Note", "Visual Thinking", "Infographic"]`
+Body Font: "Medium weight Sans-Serif"`
 });
 
 styles.push({
-  slug: 'classical-european-romantic-infographic',
-  name: 'Classical European Romantic Infographic',
-  category: 'Artistic / Classical',
-  tags: ['rococo', 'whimsical', 'narrative infographic', 'pastel', 'romantic'],
-  image: 'assets/classical-european-romatic-infographic.png',
+  slug: 'heavy-impact-retro-infographic',
+  name: 'Heavy Impact Retro Infographic',
+  category: 'Retro / Pop',
+  tags: ['retro pop','american diner','vintage comic','split-screen','americana'],
+  image: 'assets/heavy-impact-retro-infographic.png',
   source: 'user-provided',
-  summary: 'Rococo-inspired narrative infographic with cherubs, ribbons, and soft watercolor aesthetics.',
+  summary: 'Retro comic split-screen infographic.',
   prompt: `Overall Design Settings:
 
-Tone: "Elegant, dreamy, educational, soft, and whimsical with a classical European romantic influence."
+Tone: "Energetic, Nostalgic, Instructional, Playful, Bold"
 
 Visual Identity:
 
-Background Color: "#FDF6F0"
+Background Color: "#9ED9CC"
 
-Text Color: "#6B4C40"
+Text Color: "#111111"
 
-Accent Color: "#EBC97A"
-
-Secondary Colors: ["#E88CA0", "#BFE3F2", "#FADadd", "#FFFFFF", "#D96C75"]
+Accent Color: "#E84E45"
 
 Image Style:
 
-Features: "Classical cherubs (putti), blooming roses, flowing golden ribbons acting as directional guides, seashells, pearls, and allegorical character vignettes."
+Features: "Split-screen layout, comic illustrations, speech bubbles, chrome arrows"
 
-Texture: "Soft watercolor wash, smooth gradients, ethereal glow, matte paper finish."
+Texture: "Halftone patterns"
 
-Composition: "S-curve narrative path connecting three distinct stages, balanced asymmetry, framed by decorative floral corners."
+Composition: "Bilateral symmetry"
 
-Lighting: "Soft and diffuse ambient lighting with magical, glowing highlights emitting from key objects (mirror, book)."
-
-Line Work: "Delicate, warm-colored outlines (browns and deep pinks) rather than harsh black."
-
-Motifs: "Victorian fantasy elements: ribbons, jewels, flowers, and classical mythology references."
-
-Typography:
-
-Heading: "Elegant Serif (Mincho style)"
-
-Body: "Soft Rounded Sans-serif or clean Handwriting style"
-
-Formatting: "Gold or Rose colored headers, Dark Brown body text for warmth and readability"
-
-Categories:
-
-Tags: ["Rococo", "Whimsical", "Narrative Infographic", "Pastel", "Romantic"]`
+Lighting: "Flat illustrative lighting"`
 });
 
 styles.push({
-  slug: 'industrial-workbench-schematic-infographic',
-  name: 'Industrial Workbench Schematic',
-  category: 'Technical / Industrial',
-  tags: ['industrial','skeuomorphic','engineering','hardware','tactile'],
-  image: 'assets/industrial-workbench-schematic-infographic.png',
+  slug: 'playful-decorative-infographic',
+  name: 'Playful Decorative Infographic',
+  category: 'Playful / Kawaii',
+  tags: ['kawaii','pastel','yume-kawaii','educational','pop art'],
+  image: 'assets/playful-decorative-infographic.png',
   source: 'user-provided',
-  summary: 'Photorealistic hardware infographic integrated with circuit schematic overlays in a workshop setting.',
-  prompt: `Overall Tone: Precision Engineering, Rugged Reliability, Technical Authority, Hardware-Focused
+  summary: 'Decorative pastel kawaii infographic.',
+  prompt: `Overall Design Settings:
 
-Colors: Background #cfd3d6, Text #1f1f1f, Accent #ffc107
+Tone: "Playful, whimsical, encouraging"
 
-Image Style: Photorealistic hardware components integrated with 2D schematic diagrams (PCB traces), metallic plaque substrate, workshop tools framing the scene.
+Visual Identity:
 
-Texture: Brushed aluminum, scratched metal, rubber cable insulation, matte plastic, industrial grit.
+Background Color: "#FFD1DC"
 
-Composition: Central information plate screwed onto a dirty work surface, framed by disorganized tools (calipers, cables) acting as a border; internal layout uses circuit lines to guide the eye between modular sections.
+Text Color: "#222222"
 
-Lighting: Cool, diffuse overhead workshop lighting creating realistic soft drop shadows under 3D elements; subtle glowing effects on yellow LED/circuit indicators.
+Accent Color: "#9D84B6"
 
-Typography Style: DIN Condensed or Impact (Industrial Sans-Serif), Uppercase
+Image Style:
 
-Categories: Industrial, Skeuomorphic, Engineering, Hardware, Tactile
+Features: "Rainbow gradients, cute mascots, decorative icons"
 
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Industrial Workbench Schematic".
+Texture: "Soft gradients"
 
-Reference extracted metadata for exact aesthetic and structural adherence.`
+Composition: "Central hierarchy"
+
+Lighting: "Bright diffuse"`
 });
 
-if (!categories.includes('Handmade / Casual')) categories.push('Handmade / Casual');
-if (!categories.includes('Artistic / Classical')) categories.push('Artistic / Classical');
-if (!categories.includes('Technical / Industrial')) categories.push('Technical / Industrial');
+styles.push({
+  slug: 'playful-minecraftesque-infographic',
+  name: 'Minecraft-style Process Infographic',
+  category: 'Playful / Gamified',
+  tags: ['isometric','voxel art','pastel','gamification','educational'],
+  image: 'assets/playful-minecraftesque-infographic.png',
+  source: 'user-provided',
+  summary: 'Voxel-style gamified infographic.',
+  prompt: `Overall Design Settings:
+
+Tone: "Playful, accessible, structured"
+
+Visual Identity:
+
+Background Color: "#E8F0FE"
+
+Text Color: "#5D4037"
+
+Accent Color: "#69F0AE"
+
+Image Style:
+
+Features: "Isometric voxel characters, floating platforms"
+
+Composition: "Diagonal progression"
+
+Lighting: "Soft ambient"`
+});
+
+styles.push({
+  slug: 'radial-infographic',
+  name: 'Radial Process Infographic',
+  category: 'Corporate / Clean',
+  tags: ['corporate','infographic','process flow','clean design','radial layout'],
+  image: 'assets/radial-infographic.png',
+  source: 'user-provided',
+  summary: 'Radial structured process infographic.',
+  prompt: `Overall Design Settings:
+
+Tone: "Professional, Structured, Instructional, Clear"
+
+Visual Identity:
+
+Background Color: "#FFFFFF"
+
+Text Color: "#333333"
+
+Accent Color: "#008B8B"
+
+Image Style:
+
+Features: "Radial timeline, segmented arcs"
+
+Composition: "Circular layout"
+
+Lighting: "Flat"`
+});
+
+if (!categories.includes('Technical / Blueprint')) categories.push('Technical / Blueprint');
+if (!categories.includes('Retro / Pop')) categories.push('Retro / Pop');
+if (!categories.includes('Playful / Kawaii')) categories.push('Playful / Kawaii');
+if (!categories.includes('Playful / Gamified')) categories.push('Playful / Gamified');
+if (!categories.includes('Corporate / Clean')) categories.push('Corporate / Clean');
+
 categories.sort();
 
-['hand-drawn','educational','sketch-note','visual thinking','infographic','rococo','whimsical','narrative infographic','pastel','romantic','industrial','skeuomorphic','engineering','hardware','tactile'].forEach(tag => {
+['schematic','architectural','retro pop','kawaii','voxel art','radial layout'].forEach(tag => {
   if (!allTags.includes(tag)) allTags.push(tag);
 });
 allTags.sort();
