@@ -70,7 +70,7 @@ async function listAssetFilesFromGitHub(path) {
   if (!Array.isArray(files)) return [];
 
   return files
-    .filter(file => file.type === 'file')
+    .filter(file => file.type === 'file' && file.name !== 'index.json')
     .map(file => file.name);
 }
 
@@ -110,23 +110,30 @@ async function listImageFiles() {
   return [];
 }
 
+async function loadPrompt(fileName) {
+  const slug = fileName.replace(/\.txt$/i, '');
+  const promptPath = `assets/prompts/${fileName}`;
+  const promptResponse = await fetch(promptPath, { cache: 'no-store' });
+  if (!promptResponse.ok) {
+    console.warn(`Skipping missing prompt: ${promptPath}`);
+    return null;
+  }
+
+  const prompt = await promptResponse.text();
+  const tone = extractField(prompt, 'Tone') || extractField(prompt, 'Overall Tone') || 'General';
+  const tags = extractTags(prompt);
+
+  return { slug, promptPath, prompt, tone, tags };
+}
+
 export async function loadStylesFromAssets() {
   const [promptFiles, imageFiles] = await Promise.all([listPromptFiles(), listImageFiles()]);
-  const imageSet = new Set(imageFiles);
+  const imageSet = new Set(imageFiles.filter(file => file !== 'index.json'));
 
-  const styles = await Promise.all(
-    promptFiles.map(async fileName => {
-      const slug = fileName.replace(/\.txt$/i, '');
-      const promptPath = `assets/prompts/${fileName}`;
-      const promptResponse = await fetch(promptPath, { cache: 'no-store' });
-      if (!promptResponse.ok) {
-        throw new Error(`Unable to fetch prompt ${promptPath}`);
-      }
-
-      const prompt = await promptResponse.text();
-      const tone = extractField(prompt, 'Tone') || extractField(prompt, 'Overall Tone') || 'General';
-      const tags = extractTags(prompt);
-
+  const styleCandidates = await Promise.all(promptFiles.map(fileName => loadPrompt(fileName)));
+  const styles = styleCandidates
+    .filter(Boolean)
+    .map(({ slug, promptPath, prompt, tone, tags }) => {
       const matchedImage = IMAGE_EXTENSIONS
         .map(ext => `${slug}.${ext}`)
         .find(candidate => imageSet.has(candidate));
@@ -141,10 +148,10 @@ export async function loadStylesFromAssets() {
         hasImage: Boolean(matchedImage),
         promptPath,
         prompt,
-        summary: `${tone} infographic style.`
+        summary: `${tone} infographic style.`,
+        thumbnail: `assets/images/thumbs/${slug}.svg`
       };
-    })
-  );
+    });
 
   return styles.sort((a, b) => a.name.localeCompare(b.name));
 }
