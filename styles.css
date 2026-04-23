@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  align-items: flex-end;
+  align-items: center;
   flex-wrap: wrap;
   margin-bottom: 14px;
 }
@@ -42,61 +42,68 @@ h2 { margin: 0; font-size: 15px; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 6px;
-  border: 1px solid rgba(17, 24, 39, 0.08);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.96);
+  height: 48px;
+  padding: 0 6px 0 10px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
   color: var(--text);
-  font-size: 14px;
-  box-shadow: 0 4px 16px rgba(17, 24, 39, 0.06);
 }
 
 .sort-label {
-  padding-left: 8px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
+  line-height: 1;
 }
 
 .sort-segmented {
   display: inline-flex;
   gap: 4px;
   padding: 4px;
-  border-radius: 999px;
-  background: #eef2f7;
+  border-radius: 10px;
+  background: #f3f4f6;
 }
 
 .sort-option {
   border: none;
   background: transparent;
   color: var(--muted);
-  padding: 8px 14px;
-  border-radius: 999px;
-  font-size: 13px;
+  padding: 8px 12px;
+  min-height: 36px;
+  border-radius: 8px;
+  font-size: 12px;
   font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .sort-option.active {
   background: #111827;
   color: #fff;
-  box-shadow: 0 6px 14px rgba(17, 24, 39, 0.18);
+  box-shadow: none;
 }
 
 #search {
-  min-width: 260px;
-  padding: 10px 12px;
-  border-radius: 10px;
+  min-width: 320px;
+  height: 48px;
+  padding: 10px 14px;
+  border-radius: 12px;
   border: 1px solid var(--border);
   background: var(--surface);
+  font-size: 14px;
 }
 
 button {
-  padding: 10px 12px;
+  min-height: 48px;
+  padding: 10px 16px;
   border: 1px solid transparent;
-  border-radius: 10px;
+  border-radius: 12px;
   background: #1f2937;
   color: #fff;
   cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 button:disabled {
@@ -343,6 +350,20 @@ button:disabled {
 .zoom-close { position: absolute; top: 16px; right: 20px; font-size: 32px; color: #fff; background: transparent; border: none; cursor: pointer; line-height: 1; }
 
 @media (max-width: 980px) {
+  .page-header,
+  .header-controls {
+    align-items: stretch;
+  }
+
+  .header-controls {
+    width: 100%;
+  }
+
+  #search {
+    min-width: 0;
+    width: 100%;
+  }
+
   .library-shell {
     grid-template-columns: 1fr;
   }
@@ -354,5 +375,10 @@ button:disabled {
 
   .tag-list {
     max-height: 220px;
+  }
+
+  .sort-control {
+    width: 100%;
+    justify-content: space-between;
   }
 }
