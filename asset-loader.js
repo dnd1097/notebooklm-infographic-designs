@@ -66,6 +66,10 @@ function sortAlphabetically(values) {
   return [...values].sort((a, b) => a.localeCompare(b));
 }
 
+function normalizeColorValue(colorValue) {
+  return colorValue ? colorValue.trim().replace(/^"|"$/g, '').toLowerCase() : '';
+}
+
 function inferCategory(promptText) {
   const text = promptText.toLowerCase();
   if (text.includes('blueprint')) return 'Technical / Blueprint';
@@ -169,8 +173,9 @@ async function loadPrompt(fileName) {
   const prompt = await promptResponse.text();
   const tone = extractField(prompt, 'Tone') || extractField(prompt, 'Overall Tone') || 'General';
   const tags = sortAlphabetically(extractTags(prompt));
+  const backgroundColor = normalizeColorValue(extractField(prompt, 'Background Color'));
 
-  return { slug, promptPath, prompt, tone, tags };
+  return { slug, promptPath, prompt, tone, tags, backgroundColor };
 }
 
 export async function loadStylesFromAssets() {
@@ -192,7 +197,7 @@ export async function loadStylesFromAssets() {
       if (override?.hidden) return null;
 
       const promptSource = override?.promptSlug ? styleCandidateMap.get(override.promptSlug) || styleCandidate : styleCandidate;
-      const { promptPath, prompt, tone, tags } = promptSource;
+      const { promptPath, prompt, tone, tags, backgroundColor } = promptSource;
       const imageLookupSlug = override?.imageSlug || slug;
       const matchedImage = IMAGE_EXTENSIONS
         .map(ext => `${imageLookupSlug}.${ext}`)
@@ -205,6 +210,7 @@ export async function loadStylesFromAssets() {
         name: override?.name || toTitleFromSlug(slug),
         tone,
         tags,
+        backgroundColor,
         category: inferCategory(prompt),
         image: matchedImage ? `assets/images/${matchedImage}` : PLACEHOLDER_IMAGE,
         hasImage: hasRenderedPreview,

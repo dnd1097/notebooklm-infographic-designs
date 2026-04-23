@@ -4,6 +4,7 @@ const grid = document.getElementById('grid');
 const filters = document.getElementById('filters');
 const categories = document.getElementById('categories');
 const search = document.getElementById('search');
+const sortOrder = document.getElementById('sortOrder');
 const stats = document.getElementById('stats');
 const refreshButton = document.getElementById('reloadLibrary');
 
@@ -11,6 +12,7 @@ let styles = [];
 let activeCategory = 'All';
 let activeTag = 'All';
 let activeQuery = '';
+let activeSort = 'title';
 
 function getCategories() {
   return ['All', ...new Set(styles.map(style => style.category))];
@@ -64,11 +66,22 @@ function renderFilters() {
 function renderGrid() {
   grid.innerHTML = '';
 
-  styles
+  const visibleStyles = styles
     .filter(style => activeCategory === 'All' || style.category === activeCategory)
     .filter(style => activeTag === 'All' || (style.tags || []).includes(activeTag))
     .filter(style => style.name.toLowerCase().includes(activeQuery))
-    .forEach(style => {
+    .sort((a, b) => {
+      if (activeSort === 'backgroundColor') {
+        const colorA = a.backgroundColor || 'zzzzzz';
+        const colorB = b.backgroundColor || 'zzzzzz';
+        const colorCompare = colorA.localeCompare(colorB);
+        if (colorCompare !== 0) return colorCompare;
+      }
+
+      return a.name.localeCompare(b.name);
+    });
+
+  visibleStyles.forEach(style => {
       const card = document.createElement('article');
       card.className = 'card';
       const previewMarkup = style.hasRenderedPreview
@@ -88,6 +101,7 @@ function renderGrid() {
           </div>
           <div class="card-body">
             <h3>${style.name}</h3>
+            ${style.backgroundColor ? `<div class="color-meta"><span class="color-swatch" style="background:${style.backgroundColor}"></span><span>${style.backgroundColor}</span></div>` : ''}
             <p>${style.summary}${style.hasRenderedPreview ? '' : ' Preview pending.'}</p>
           </div>
         </a>
@@ -116,6 +130,11 @@ async function initializeLibrary() {
 
 search.addEventListener('input', event => {
   activeQuery = event.target.value.toLowerCase();
+  renderGrid();
+});
+
+sortOrder.addEventListener('change', event => {
+  activeSort = event.target.value;
   renderGrid();
 });
 
