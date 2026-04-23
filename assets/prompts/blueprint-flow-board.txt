@@ -1,0 +1,33 @@
+Overall Design Settings:
+
+Tone: "Analytical, precise, structural, educational, and authoritative."
+
+Visual Identity:
+
+Background Color: "#1C4E80"
+
+Text Color: "#FFFFFF"
+
+Accent Color: "#E85D5D"
+
+Secondary Colors: ["#F2D64B", "#8FBCE6"]
+
+Image Style:
+
+Features: "CAD-inspired layout, mechanical gear motifs, flowchart connectors, and modular information blocks."
+
+Texture: "Subtle paper grain background with a precise, fine-line vector grid overlay."
+
+Composition: "Split-panel logic flow (Problem vs Solution), framed by technical borders with measurement ticks."
+
+Lighting: "Flat, high-contrast schematic lighting with no gradients, emphasizing line clarity."
+
+Typography:
+
+Heading: "Bold Geometric Sans-Serif"
+
+Body: "Clean, Monolinear Sans-Serif"
+
+Categories:
+
+Tags: ["Blueprint", "Technical", "Engineering", "Process Flow", "Industrial"]

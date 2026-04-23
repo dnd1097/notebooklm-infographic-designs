@@ -1,0 +1,33 @@
+Overall Design Settings:
+
+Tone: "Playful, energetic, whimsical, and engagingly educational."
+
+Visual Identity:
+
+Background Color: "#FFF9C4"
+
+Text Color: "#2A0A4A"
+
+Accent Color: "#FF6E40"
+
+Secondary Colors: ["#F06292", "#4DD0E1", "#9575CD", "#AED581", "#FFAB00"]
+
+Image Style:
+
+Features: "Wavy rainbow borders, peace signs, mushrooms, daisies, and organic fluid shapes framing content."
+
+Texture: "Flat vector illustration with bold outlines; clean, matte finish."
+
+Composition: "Compartmentalized layout using fluid, wavy frames instead of rigid grids; central hub with radiating sections."
+
+Lighting: "Flat, uniform high-key lighting with no realistic shading; reliance on color contrast."
+
+Typography:
+
+Heading: "Chunky, bubble-style rounded sans-serif with heavy outlines and drop shadows."
+
+Body Font: "Rounded Sans-Serif, Medium Weight"
+
+Categories:
+
+Tags: ["Psychedelic", "Retro Pop", "70s Aesthetic", "Flower Power", "Maximalist"]

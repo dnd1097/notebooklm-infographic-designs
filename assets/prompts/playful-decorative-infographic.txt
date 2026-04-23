@@ -1,0 +1,21 @@
+Overall Design Settings:
+
+Tone: "Playful, whimsical, encouraging"
+
+Visual Identity:
+
+Background Color: "#FFD1DC"
+
+Text Color: "#222222"
+
+Accent Color: "#9D84B6"
+
+Image Style:
+
+Features: "Rainbow gradients, cute mascots, decorative icons"
+
+Texture: "Soft gradients"
+
+Composition: "Central hierarchy"
+
+Lighting: "Bright diffuse"

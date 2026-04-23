@@ -1,0 +1,33 @@
+Overall Design Settings:
+
+Tone: "Authentic, intellectual, informal, creative, and instructional."
+
+Visual Identity:
+
+Background Color: "#F4F1EA"
+
+Text Color: "#0E2A5C"
+
+Accent Color: "#D12828"
+
+Secondary Colors: ["#C8AB83"]
+
+Image Style:
+
+Features: "Hand-drawn diagrams, spiral binding, coffee ring stains, arrows, stick figures, speech bubbles, stars for emphasis."
+
+Texture: "Matte paper grain, horizontal rule lines, ink bleed, liquid staining artifacts."
+
+Composition: "Top-down flowchart logic, loose organic grouping, utilization of white space for arrows and notes."
+
+Lighting: "Flat, bright, natural ambient light simulating a desktop scan."
+
+Typography:
+
+Heading: "Hand-Lettered Bold Caps (Marker Style)"
+
+Body Font: "Neat, hand-printed sans-serif."
+
+Categories:
+
+Tags: ["Hand-drawn", "Brainstorming", "Educational", "Analogue", "Sketch-note"]
