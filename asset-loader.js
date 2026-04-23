@@ -15,6 +15,15 @@ const STYLE_OVERRIDES = {
   'radial-infographic': {
     hidden: true
   },
+  'versus-anime-hud': {
+    hidden: true
+  },
+  'holographic-isometric-flow': {
+    hidden: true
+  },
+  'manga-process-panels': {
+    hidden: true
+  },
   'heavy-impact-retro-infographic': {
     name: 'Retro Diner Split Screen',
     promptSlug: 'retro-diner-split-screen'

@@ -117,7 +117,6 @@ function renderGrid() {
           </div>
           <div class="card-body">
             <h3>${style.name}</h3>
-            ${style.backgroundColor ? `<div class="color-meta"><span class="color-swatch" style="background:${style.backgroundColor}"></span><span>${style.backgroundColor}</span></div>` : ''}
             <p>${style.summary}${style.hasRenderedPreview ? '' : ' Preview pending.'}</p>
           </div>
         </a>
