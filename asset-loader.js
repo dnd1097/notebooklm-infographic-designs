@@ -9,9 +9,6 @@ const STYLE_OVERRIDES = {
     name: 'Architecture Blueprint Split-screen',
     imageSlug: 'architectural-blueprint-infographic'
   },
-  'retro-diner-split-screen': {
-    allowSvgPreview: true
-  },
   'psychedelic-flower-power': {
     name: 'Chunky bubble-style Radiating',
     imageSlug: 'chunky-bubble-style-radiating'
