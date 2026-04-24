@@ -1,0 +1,41 @@
+Overall Design Settings:
+
+Tone: "Stoic, enduring, balanced, classical, solemn"
+
+Visual Identity:
+
+Background Color: "#DED7C8"
+
+Text Color: "#1A1A1A"
+
+Accent Color: "#8B4513"
+
+Secondary Colors: ["#4F5D75", "#708090", "#BC8F8F", "#2F4F4F"]
+
+Image Style:
+
+Features: "Doric columns, laurel wreaths, stone busts, sundials, compasses, balance scales, olive branches"
+
+Texture: "Etched stone, cracked marble, worn papyrus, chiseled rock, subtle dust motes, dried ink bleed"
+
+Composition: "Triptych layout, central pillar alignment, symmetrical balance, clear division between 'Internal' and 'External' domains"
+
+Lighting: "Natural top-down sunlight, soft architectural shadows, 'golden hour' warmth, high-contrast chiaroscuro for sculptural depth"
+
+Line Work: "Hand-etched woodcut style, varying line weights mimicking a quill, sharp architectural blueprints"
+
+Iconography: "Classical symbols (a lit torch for reason, an anchor for stability, a mountain for endurance, a fortress for the inner citadel)"
+
+Borders: "Chiseled stone frames with subtle Greek key (Meander) patterns and corner rivets"
+
+Typography:
+
+Heading: "Classic Roman Serif (Trajan-style)"
+
+Body: "Medium weight Serif, elegant spacing, high legibility"
+
+Style: "Chiseled into stone look, blocky but refined, resembling classical inscriptions"
+
+Categories:
+
+Tags: ["Philosophy", "Classical", "Self-Mastery", "History", "Educational"]

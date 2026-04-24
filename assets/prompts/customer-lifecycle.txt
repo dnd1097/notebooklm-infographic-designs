@@ -1,0 +1,41 @@
+Overall Design Settings:
+
+Tone: "Empowering, analytical, seamless, proactive, executive-grade"
+
+Visual Identity:
+
+Background Color: "#F4F7F9"
+
+Text Color: "#102A43"
+
+Accent Color: "#00D1B2"
+
+Secondary Colors: ["#243B53", "#486581", "#829AB1", "#BCCCDC", "#627D98"]
+
+Image Style:
+
+Features: "Abstract growth curves, customer health score dials, interconnected 'success network' nodes, translucent data overlays, handshake silhouettes, upward-trending bar charts"
+
+Texture: "Frosted glass (glassmorphism), clean vector gradients, subtle mesh distortion, satin finish, soft drop shadows"
+
+Composition: "Modular grid layout with a central 'Customer Lifecycle' flywheel, distinct numbered stages (1–3), floating panels with rounded corners"
+
+Lighting: "Diffuse ambient light, soft internal glow on 'success' metrics, vibrant highlight on the 'AI Engine' core"
+
+Line Work: "Continuous smooth paths, dot-matrix patterns representing data clusters, clean geometric outlines"
+
+Iconography: "Professional line-art (magnifying glass over a user profile, heart icon inside a gear, megaphone, upward arrow with a pulse line)"
+
+Borders: "Thin, minimalist borders with subtle 1px glows and 'active' status indicators"
+
+Typography:
+
+Heading: "Modern Corporate Sans-serif (Geometric/Humanist)"
+
+Body: "Light to Medium weight Sans-serif, open kerning for high readability"
+
+Style: "Polished, accessible, utilitarian yet sophisticated, resembling a premium SaaS dashboard"
+
+Categories:
+
+Tags: ["Customer-Success", "B2B-SaaS", "AI-Integration", "Growth-Strategy", "Data-Driven"]
