@@ -1,0 +1,49 @@
+Overall Design Settings:
+
+Tone: "Optimistic, authoritative, retro-futurist, industrial, presentation-ready"
+
+Visual Identity:
+
+Background Color: "#F3E9B8"
+
+Text Color: "#17384B"
+
+Accent Color: "#F3A23A"
+
+Secondary Colors: ["#63C3CC", "#A7E5EC", "#2D6E86", "#F7F2D8", "#7EC2A2"]
+
+Image Style:
+
+Features: "Four-panel industry infographic grid with humanoid robots, command-table scenes, simulation dashboards, world-model callouts, headline ribbon, badge medallions, compact caption placards, and sponsor-logo footer strips."
+
+Texture: "Clean flat vector illustration with lightly posterized color fills, subtle warm paper tint, soft cel-style shading, and restrained print-poster crispness."
+
+Composition: "Wide 16:9 editorial infographic organized as a bold top headline banner above a symmetrical 2x2 panel grid, with each quadrant framed as a self-contained explainer scene and separated by thick dividers."
+
+Lighting: "Bright optimistic daylight treatment with soft illustrative shading, cool teal screen glow, and warm highlight accents that keep the panels readable and upbeat."
+
+Line Work: "Clean medium-weight contour lines, technical panel dividers, rounded placard outlines, and consistent vector stroke detail."
+
+Iconography: "Retro-futurist robots, vehicles, drones, data dashboards, glowing brain globes, world-model diagrams, tactical tables, and small industrial control symbols."
+
+Borders: "Thick teal panel frames with dark divider bands, cream interior stages, orange circular connector medallions, and strong header strip segmentation."
+
+Decorations: "Sun mascot emblems, italic optimism tagline, mini dashboard charts, corner medallions, sponsor-logo bands, and compact speech-placard annotations."
+
+Typography:
+
+Heading: "Condensed bold sans-serif with all-caps section bars and a high-contrast editorial headline."
+
+Body: "Compact clean sans-serif for captions, labels, and source-style annotation boxes."
+
+Case: "All-caps primary headline and section headers, mixed-case annotation placards, and italic emphasis in the top slogan."
+
+Alignment: "Centered master headline, left-to-right section-bar labeling, and balanced callout placement within each illustrated panel."
+
+Weights: "Heavy for headline and panel bars, Bold for callout titles, Regular for supporting annotation copy."
+
+Emphasis: "Orange highlight words, dark teal header bands, boxed annotation captions, and high-contrast section separators."
+
+Categories:
+
+Tags: ["Retro-Futurist", "Panel Grid", "Industrial Tech", "Editorial", "Sunburst"]
