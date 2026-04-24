@@ -4,45 +4,35 @@ Tone: "Authoritative, polished, technical, energetic, presentation-ready"
 
 Visual Identity:
 
-Background Color: "#061B35"
+Background Color: "#071A35"
 
 Text Color: "#FFFFFF"
 
-Accent Color: "#FF8A00"
+Accent Color: "#F58A1F"
 
-Secondary Colors: ["#00C8FF", "#EAF3FF", "#143A63", "#2F80ED", "#F4F7FB"]
+Secondary Colors: ["#00C8FF", "#12365D", "#2E7FEA", "#EAF3FF"]
 
 Image Style:
 
-Features: "Corporate AI product launch layout with dark navy hero band, bright orange emphasis typography, modular information cards, comparison tables, metric dashboards, callout panels, line icons, chart previews, and glowing data-wave patterns."
+Features: "Corporate AI launch infographic with a dark hero band, oversized orange product typography, dashboard preview card, three explainer cards, large comparison matrix, capability icons, and bottom callout strip."
 
-Texture: "Clean flat digital interface with smooth matte panels, crisp vector graphics, subtle dotted waveform texture, and restrained neon edge glow."
+Texture: "Clean flat digital interface with matte surfaces, crisp white panels, subtle dotted wave pattern, and restrained cyan-orange edge glow."
 
-Composition: "Wide 16:9 executive briefing infographic with a dominant headline-and-preview hero across the top, three structured content cards beneath, a large comparison matrix on the right, and a narrow bottom strip of action-oriented callouts."
+Composition: "Wide 16:9 executive briefing layout with a dominant top hero, three information cards below, a large right-side comparison table, and a narrow full-width footer ribbon."
 
-Lighting: "High-contrast dark-mode lighting with cyan and orange luminous accents, soft glow around key panels, and flat white content surfaces for readability."
+Lighting: "High-contrast dark-mode lighting with cyan and orange accents, soft glow around the preview card, and flat white panel interiors."
 
-Line Work: "Thin precise vector strokes, technical divider lines, rounded rectangular frames, and consistent icon outlines."
+Line Work: "Thin precise vector strokes, technical divider lines, and rounded rectangular frames."
 
-Iconography: "Monoline orange-and-white product icons, web globe symbols, typography markers, brain/logic icons, charts, rockets, monitors, shields, and lightbulb callouts."
+Iconography: "Monoline icons including globe, typography glyph, brain, charts, rockets, monitors, shields, and lightbulbs."
 
-Borders: "Rounded rectangular panels with navy headers, white card interiors, fine gray separators, and occasional cyan-orange glow outlines."
-
-Decorations: "Subtle dotted wave field, dashboard mockups, checkmark badges, colored status dots, and footer callout blocks."
+Borders: "Rounded panels with navy headers, white interiors, fine separators, and cyan-orange highlighted preview framing."
 
 Typography:
 
-Heading: "Bold geometric sans-serif with oversized product-name hierarchy and strong all-caps support lines."
+Heading: "Bold geometric sans-serif with oversized product title and strong all-caps support lines."
 
-Body: "Clean compact sans-serif optimized for dense explanatory copy and table labels."
-
-Case: "Large mixed-case hero title, all-caps section headers, sentence-case body copy."
-
-Alignment: "Left-aligned hero text, centered card headers, table-aligned comparison data, and grid-based footer callouts."
-
-Weights: "Heavy/Black for hero words and key metrics, Bold for section headers, Regular/Medium for descriptions."
-
-Emphasis: "Orange highlight words, white-on-navy headers, large numeric metrics, and icon-led bullet groups."
+Body: "Compact clean sans-serif for dense explanatory copy, labels, and matrix text."
 
 Categories:
 

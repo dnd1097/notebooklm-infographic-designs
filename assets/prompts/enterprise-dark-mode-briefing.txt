@@ -1,49 +1,39 @@
 Overall Design Settings:
 
-Tone: "Enterprise, confident, modern, operational, executive-ready"
+Tone: "Enterprise, polished, authoritative, operational, executive-ready"
 
 Visual Identity:
 
-Background Color: "#061E3A"
+Background Color: "#071B36"
 
 Text Color: "#FFFFFF"
 
-Accent Color: "#FF8A00"
+Accent Color: "#F58A1F"
 
-Secondary Colors: ["#123B5D", "#1F5B83", "#8DBBFF", "#E9F3FF", "#F7A23A"]
+Secondary Colors: ["#102B4F", "#285A86", "#8FA8D8", "#DCE9FF"]
 
 Image Style:
 
-Features: "Dark-mode enterprise briefing layout with a large headline hero, mascot-style product avatar, app-integration badges, feature lists, comparison matrix, deployment cards, pricing panels, footer banner, and icon-led callout systems."
+Features: "Dark-mode product briefing with a left-aligned hero headline, central mascot avatar, app badges, feature list panel, comparison matrix, deployment card, pricing card, and bottom CTA strip."
 
-Texture: "Clean digital matte finish with flat vector panels, subtle navy gradients, soft container transparency, and minimal glow around orange and blue interface accents."
+Texture: "Clean matte digital interface with flat navy panels, crisp vector iconography, and restrained orange emphasis."
 
-Composition: "Wide 16:9 corporate infographic organized as a top hero band, three-column body grid, central comparison table, stacked right-side decision panels, and a full-width bottom takeaway strip."
+Composition: "Wide 16:9 enterprise infographic with a top hero band, three-column middle layout, center comparison table, stacked right-side cards, and a full-width footer banner."
 
-Lighting: "Low-key dark interface lighting with crisp white contrast, warm orange emphasis, cool blue secondary glow, and subtle spotlighting around the central character."
+Lighting: "Low-key dark interface lighting with strong white contrast and subtle cool-blue panel separation."
 
-Line Work: "Precise monoline strokes, thin dividers, rounded container outlines, and consistent technical icon contours."
+Line Work: "Thin precise vector strokes, clean divider lines, and rounded card outlines."
 
-Iconography: "Enterprise SaaS-style line icons including stars, targets, databases, shields, teams, charts, clouds, buildings, locks, gauges, sliders, and integration app tiles."
+Iconography: "Enterprise SaaS line icons including stars, targets, databases, shields, teams, buildings, locks, gauges, and chat bubbles."
 
-Borders: "Rounded rectangular containers with thin blue outlines, darker navy header bars, orange highlighted comparison column, and segmented card dividers."
-
-Decorations: "Circular orbit path around the hero avatar, small app-logo tiles, check and x status badges, orange CTA strip, and section-leading icon medallions."
+Borders: "Rounded rectangular containers with slim blue outlines, darker headers, and orange-highlighted emphasis frames."
 
 Typography:
 
-Heading: "Bold geometric sans-serif with oversized product-title hierarchy and strong orange emphasis words."
+Heading: "Bold geometric sans-serif with oversized mixed-case title hierarchy."
 
-Body: "Compact clean sans-serif for dense explanatory copy, labels, and comparison text."
-
-Case: "Mixed-case hero heading, all-caps or title-case section labels, sentence-case body descriptions."
-
-Alignment: "Left-aligned headline and feature copy, centered deployment/pricing card labels, table-aligned comparison rows."
-
-Weights: "Heavy/Black for hero words, Bold for card headers and key labels, Regular/Medium for supporting text."
-
-Emphasis: "Orange highlight words, white-on-navy section titles, icon-first labels, checkmark status indicators, and high-contrast CTA text."
+Body: "Compact clean sans-serif for dense explanatory copy and comparison rows."
 
 Categories:
 
-Tags: ["Enterprise Tech", "Dark Mode", "SaaS Infographic", "Comparison Matrix", "Agentic Workflow"]
+Tags: ["Enterprise Tech", "Dark Mode", "SaaS Infographic", "Comparison Matrix", "Product Briefing"]
