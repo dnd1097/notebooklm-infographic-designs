@@ -1,0 +1,41 @@
+Overall Design Settings:
+
+Tone: "Futuristic, systematic, cybernetic, architectural, interconnected"
+
+Visual Identity:
+
+Background Color: "#060B14"
+
+Text Color: "#E0E0E0"
+
+Accent Color: "#FFD700"
+
+Secondary Colors: ["#00F2FF", "#1A2B3C", "#FFD700", "#4A90E2", "#005F73"]
+
+Image Style:
+
+Features: "Glow-trace connection lines, floating modular data panels, isometric hardware chips, neural network nodes, directional data flow arrows, holographic interface elements"
+
+Texture: "High-gloss glass, digital scanline overlay, subtle bokeh depth, neon light bloom, dark matte metal, electric current pulses"
+
+Composition: "Bipartite tiered architecture, horizontal split-screen layout, symmetrical panel distribution, integrated flow-chart logic"
+
+Lighting: "Internal neon illumination, back-lit translucent panels, high-contrast glow against deep shadows, volumetric light paths"
+
+Line Work: "Thin electric circuit traces, glowing fiber-optic connectors, precise vector geometric outlines"
+
+Iconography: "Minimalist glowing glyphs (terminal prompts, robotic arms, layered shields, rocket trajectories, brain-chip interfaces)"
+
+Borders: "Dual-tone glowing frames with mitered corners and secondary offset outer glow"
+
+Typography:
+
+Heading: "Wide Modern Geometric Sans-serif"
+
+Body: "Monospace technical font, light weight, high legibility"
+
+Style: "Digital HUD (Heads-Up Display) aesthetic, all-caps category headers, technical labeling"
+
+Categories:
+
+Tags: ["Cybernetic", "Architecture", "AI-Strategy", "Systemic", "High-Tech"]
